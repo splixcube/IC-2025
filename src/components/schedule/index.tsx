@@ -6,32 +6,32 @@ import Marquee from "../marquee";
 const dates = [
   {
     label: "Full Paper Submission Date", 
-    date: "26 April 2025",
+    date: "26 April 2026",
     color: "#7AB2B2",
   },
   {
     label: "Notification of Acceptance",
-    date: "02 May 2025", 
+    date: "02 May 2026", 
     color: "#006A67",
   },
   {
     label: "Revised Paper Submission",
-    date: "06 May 2025",
+    date: "06 May 2026",
     color: "#F96E2A",
   },
   {
     label: "Early Bird Registration",
-    date: "06 May 2025",
+    date: "06 May 2026",
     color: "#133E87",
   },
   {
     label: "Late Registration",
-    date: "10 May 2025",
+    date: "10 May 2026",
     color: "#7E60BF",
   },
   {
     label: "Conference Dates",
-    date: "16-17 May 2025",
+    date: "16-17 May 2026",
     color: "#201E43",
   },
 ];
@@ -42,11 +42,11 @@ function Schedule() {
       <div className="max-w-7xl mx-auto px-2 sm:px-4">
         <div className="text-center mb-6 sm:mb-8">
           <h2 className="text-base sm:text-lg font-bold text-blue-600 mb-3 px-2"> 
-            <a href="/pdfs/ICSICST2025-Conference-Schedule.pdf" 
+            <a href="/pdfs/ICSICST2026-Conference-Schedule.pdf" 
                target="_blank" 
                rel="noopener noreferrer"
                className="hover:underline transition-colors duration-200">
-              Click Here To See Full ICSICST2025 Conference Schedule
+              Click Here To See Full ICSICST2026 Conference Schedule
             </a>
           </h2>
           <h2 className="text-base sm:text-lg font-bold text-gray-900">

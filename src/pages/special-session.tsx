@@ -131,7 +131,7 @@ function SpecialSession() {
     <div className="mx-4">
       <Head>
         <title>
-          Special Sessions - ICSICST  - International Conference on Sustainable & Intelligent Computing in Science and Technology
+          Special Sessions - ICIDLHV - International Conference on Sustainable & Intelligent Computing in Science and Technology
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>

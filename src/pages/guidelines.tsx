@@ -9,7 +9,7 @@ const Guidelines = () => {
         <>
 
             <Head>
-                <title>Guidelines - ICSICST  - International Conference on Sustainable & Intelligent Computing in Science and Technology</title>
+                <title>Guidelines - ICIDLHV - International Conference on Sustainable & Intelligent Computing in Science and Technology</title>
                 <link rel="icon" href="/gallery/favicon.ico" />
             </Head>
             <div className={"prose mx-4 my-8"}>

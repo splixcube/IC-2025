@@ -527,7 +527,7 @@ function Committe() {
     <>
       <Head>
         <title>
-          Committees - ICSICST - International Conference on Sustainable & Intelligent Computing in Science and Technology
+          Committees - ICIDLHV- International Conference on Sustainable & Intelligent Computing in Science and Technology
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>

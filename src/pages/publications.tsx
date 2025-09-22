@@ -10,7 +10,7 @@ function Publications() {
     <>
       <Head>
         <title>
-          Publications - ICSICST - International Conference on Sustainable & Intelligent Computing in Science and Technology
+          Publications - ICIDLHV- International Conference on Sustainable & Intelligent Computing in Science and Technology
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>

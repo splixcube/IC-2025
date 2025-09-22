@@ -8,7 +8,7 @@ function Partners() {
   return (
     <>
       <Head>
-        <title>Contact Us - ICSICST - International Conference on Sustainable &amp;Intelligent Computing in Science and Technology</title>
+        <title>Contact Us - ICIDLHV- International Conference on Sustainable &amp;Intelligent Computing in Science and Technology</title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />

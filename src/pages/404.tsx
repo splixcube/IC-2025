@@ -7,7 +7,7 @@ const callForPapers = () => {
     return (
         <>
             <Head>
-                <title>404 - ICSICST - PIET-2025</title>
+                <title>404 - ICIDLHV- PIET-2026</title>
                 
             </Head>
             <div className={"min-h-screen flex items-center justify-center"}>

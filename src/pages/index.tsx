@@ -132,7 +132,7 @@ const Home = () => {
     <>
       <Head>
         <title>
-          ICSICST - International Conference on Sustainable & Intelligent Computing in Science and Technology
+          ICIDLHV- International Conference on Sustainable & Intelligent Computing in Science and Technology
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
@@ -145,7 +145,7 @@ const Home = () => {
           <div className="col-span-full lg:col-span-2 space-y-4 sm:space-y-6">
             <div className="flex items-center space-x-2 bg-blue-50 px-3 sm:px-4 py-2 rounded-full w-fit">
               <RiCalendarTodoFill className="text-lg sm:text-xl text-[#034EA2]" />
-              <p className="font-semibold text-[#034EA2] text-sm sm:text-base">16th & 17th May, 2025</p>
+              <p className="font-semibold text-[#034EA2] text-sm sm:text-base">16th & 17th May, 2026</p>
             </div>
 
             <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold leading-tight">
@@ -188,7 +188,7 @@ const Home = () => {
               </Link> */}
               <Link
                 href={"mailto:icsicst@poornima.org"}
-                aria-label={"icsicst mail"}
+                aria-label={"ICIDLHVmail"}
               >
                 <RiMailFill
                   className={
@@ -257,12 +257,12 @@ const Home = () => {
             <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">About Conference</h2>
             <p className="text-justify">
               International Conference on Sustainable &amp; Intelligent Computing in Science and Technology
-              (ICSICST 2025) will be held at Poornima Institute
+              (ICIDLHV2026) will be held at Poornima Institute
               of Engineering &amp; Technology, Jaipur, Rajasthan, India on
-              May 16-17, 2025.
+              May 16-17, 2026.
               {<br />}
               {<br />}
-              The IC-SICST 2025 conference aims to showcase the recent challenges and their solutions for the development of Sustainable & Intelligent Computing across all areas of science and technology. The International Conference on Sustainable & Intelligent Computing in Science and Technology (IC-SICST 2025) is a premier platform for researchers, academicians, industry professionals, and students to converge and exchange innovative ideas in the fields of sustainable and intelligent computing. This annual event brings together a diverse community of experts to discuss cutting-edge research, emerging trends, and real-world applications in various interdisciplinary areas of science and technology. Our goal for this conference is to gather academic and research contributions from experts working to provide intelligence to their machines and systems.
+              The IC-SICST 2026 conference aims to showcase the recent challenges and their solutions for the development of Sustainable & Intelligent Computing across all areas of science and technology. The International Conference on Sustainable & Intelligent Computing in Science and Technology (IC-SICST 2026) is a premier platform for researchers, academicians, industry professionals, and students to converge and exchange innovative ideas in the fields of sustainable and intelligent computing. This annual event brings together a diverse community of experts to discuss cutting-edge research, emerging trends, and real-world applications in various interdisciplinary areas of science and technology. Our goal for this conference is to gather academic and research contributions from experts working to provide intelligence to their machines and systems.
               {<br />}
               {<br />}
             </p>
@@ -410,10 +410,10 @@ const Home = () => {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center">About Conference</h1>
             <h2 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-center">
-              1st International Conference on Sustainable &amp; Intelligent Computing in Science and Technology (IC-SICST 2025)
+              1st International Conference on Sustainable &amp; Intelligent Computing in Science and Technology (IC-SICST 2026)
             </h2>
             <p className="mb-6 sm:mb-8 text-justify text-sm sm:text-base">
-              The IC-SICST 2025 conference aims to showcase the recent challenges and their solutions for the development of Sustainable &amp; Intelligent Computing across all areas of science and technology. The International Conference on Sustainable &amp; Intelligent Computing in Science and Technology (IC-SICST 2025) is a premier platform for researchers, academicians, industry professionals, and students to converge and exchange innovative ideas in the fields of sustainable and intelligent computing. This annual event brings together a diverse community of experts to discuss cutting-edge research, emerging trends, and real-world applications in various interdisciplinary areas of science and technology. Our goal for this conference is to gather academic and research contributions from experts working to provide intelligence to their machines and systems.
+              The IC-SICST 2026 conference aims to showcase the recent challenges and their solutions for the development of Sustainable &amp; Intelligent Computing across all areas of science and technology. The International Conference on Sustainable &amp; Intelligent Computing in Science and Technology (IC-SICST 2026) is a premier platform for researchers, academicians, industry professionals, and students to converge and exchange innovative ideas in the fields of sustainable and intelligent computing. This annual event brings together a diverse community of experts to discuss cutting-edge research, emerging trends, and real-world applications in various interdisciplinary areas of science and technology. Our goal for this conference is to gather academic and research contributions from experts working to provide intelligence to their machines and systems.
             </p>
           </div>
         </section> */}

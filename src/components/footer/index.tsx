@@ -53,7 +53,7 @@ const Footer = () => {
                 alt="PIET Logo"
               />
               <div>
-                <h2 className="text-lg font-bold">ICSICST 2025</h2>
+                <h2 className="text-lg font-bold">ICIDLHV2026</h2>
                 <p className="text-xs text-gray-300">
                   International Conference on Sustainable & Intelligent Computing
                 </p>
@@ -110,7 +110,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
           <div className="text-xs text-gray-400">
-            <p>© 2025 ICSICST. All rights reserved.</p>
+            <p>© 2026 ICSICST. All rights reserved.</p>
             <p className="mt-1">
               Created by{" "}
               {[

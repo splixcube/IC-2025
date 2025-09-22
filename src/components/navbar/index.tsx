@@ -191,7 +191,7 @@ function Index() {
               
               <div className="flex flex-col">
                 <span className="text-2xl font-bold text-white">
-                  ICSICST 2025
+                  ICIDLHV2026
                 </span>
                 <span className="text-sm text-gray-300">
                   International Conference on Sustainable & Intelligent Computing in Science and Technology

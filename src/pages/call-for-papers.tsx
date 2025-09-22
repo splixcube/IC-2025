@@ -14,7 +14,7 @@ const callForPapers = () => {
   return (
     <>
       <Head>
-        <title>Call for Papers - ICSICST - International Conference on Sustainable & Intelligent Computing in Science and Technology</title>
+        <title>Call for Papers - ICIDLHV- International Conference on Sustainable & Intelligent Computing in Science and Technology</title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />
@@ -26,7 +26,7 @@ const callForPapers = () => {
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Call for Papers</h1>
           <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8">
             Prospective authors from academia as well as industry are invited to
-            submit their full papers in main conference ICSICST-2025 which have not
+            submit their full papers in main conference ICSICST-2026 which have not
             been yet submitted published and that illustrate research, surveying
             works, and industrial application in all disciplines of Engineering
             for Intelligence based applications & automation activities,
@@ -122,7 +122,7 @@ const callForPapers = () => {
 
         {/* Why Attend Section */}
         <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Why Attend IC-SICST 2025?</h2>
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Why Attend IC-SICST 2026?</h2>
           <div className="space-y-3 sm:space-y-4">
             {[
               "Network with Experts: Connect with leading researchers, industry professionals, and academicians from around the world.",
@@ -143,7 +143,7 @@ const callForPapers = () => {
         {/* <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">The Impact of IC-SICST</h2>
           <p className="text-sm sm:text-base lg:text-lg text-gray-700">
-            IC-SICST 2025 plays a crucial role in promoting sustainable and intelligent computing practices. By fostering interdisciplinary collaboration and knowledge sharing, the conference contributes to the development of innovative solutions that address global challenges such as climate change, energy consumption, and social inequality.
+            IC-SICST 2026 plays a crucial role in promoting sustainable and intelligent computing practices. By fostering interdisciplinary collaboration and knowledge sharing, the conference contributes to the development of innovative solutions that address global challenges such as climate change, energy consumption, and social inequality.
           </p>
         </div> */}
 
@@ -227,12 +227,12 @@ const callForPapers = () => {
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Important Dates</h2>
           <div className="space-y-3 sm:space-y-4">
             {[
-              { event: "Full Paper Submission", date: "26 April 2025" },
-              { event: "Notification of Acceptance", date: "02 May 2025" },
-              { event: "Revised Paper Submission", date: "06 May 2025" },
-              { event: "Early Bird Registration", date: "06 May 2025" },
-              { event: "Late Registration", date: "10 May 2025" },
-              { event: "Conference Dates", date: "16-17 May 2025" },
+              { event: "Full Paper Submission", date: "26 April 2026" },
+              { event: "Notification of Acceptance", date: "02 May 2026" },
+              { event: "Revised Paper Submission", date: "06 May 2026" },
+              { event: "Early Bird Registration", date: "06 May 2026" },
+              { event: "Late Registration", date: "10 May 2026" },
+              { event: "Conference Dates", date: "16-17 May 2026" },
             ].map((item, index) => (
               <div key={index} className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b pb-2">
                 <span className="text-sm sm:text-base font-medium text-gray-700 mb-1 sm:mb-0">{item.event}</span>

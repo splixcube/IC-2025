@@ -10,7 +10,7 @@ const Register = () => {
     <>
       <Head>
         <title>
-          Register - ICSICST - International Conference on Sustainable & Intelligent Computing in Science and Technology
+          Register - ICIDLHV- International Conference on Sustainable & Intelligent Computing in Science and Technology
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
@@ -33,8 +33,8 @@ const Register = () => {
               <thead className="text-white uppercase bg-[#034EA2]">
                 <tr>
                   <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">Category</th>
-                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">On or Before April 30, 2025</th>
-                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">After May 05, 2025</th>
+                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">On or Before April 30, 2026</th>
+                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">After May 05, 2026</th>
                 </tr>
               </thead>
               <tbody>
