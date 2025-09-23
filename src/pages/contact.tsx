@@ -14,7 +14,7 @@ function Partners() {
       {/* <Schedule /> */}
       <br />
 
-      <main className="bg-gradient-to-b from-background-primary to-white px-8 pt-7">
+      <main className="bg-gradient-to-b from-background-primary to-white px-8 pt-7 rounded-lg">
         {/* Coming Soon Section */}
         <div className="bg-background-primary rounded-xl shadow-md p-8 mb-8">
           <div className="flex flex-col items-center justify-center min-h-[300px] text-center">
