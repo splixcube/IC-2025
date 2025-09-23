@@ -17,7 +17,7 @@ const callForPapers = () => {
         <title>Call for Papers - ICIDLHV- International Conference on Research Trends of ICT using Digital Libraries with Human Values & Ethics</title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
-      <Schedule />
+      {/* <Schedule /> */}
       <br />
 
       <main className="bg-gradient-to-b from-background-primary to-white px-4 sm:px-6 lg:px-8 pt-7">

@@ -135,7 +135,7 @@ function SpecialSession() {
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
-      <Schedule />
+      {/* <Schedule /> */}
       <hr className="my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
       <h1 className="text-center text-sm font-semibold lg:text-2xl">
         To be Updated Soon.

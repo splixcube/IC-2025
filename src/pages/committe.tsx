@@ -531,23 +531,23 @@ function Committe() {
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
-      <Schedule />
+      {/* <Schedule /> */}
       <br />
 
-      <main className="bg-gradient-to-b from-blue-50 to-white px-4 sm:px-6 lg:px-8 pt-7">
+      <main className="bg-gradient-to-b from-background-primary to-white px-4 sm:px-6 lg:px-8 pt-7">
         {/* Honorary Patron Section */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Honorary Patron</h2>
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">Honorary Patron</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {honaryPateron.map((item, index) => (
               <div 
                 key={index}
-                className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
+                className="bg-secondary-100 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
               >
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg sm:text-xl font-semibold text-text-primary mb-2">
                   {item.name}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600">
+                <p className="text-sm sm:text-base text-text-secondary">
                   {item.designation}
                 </p>
               </div>
@@ -556,18 +556,18 @@ function Committe() {
         </div>
 
         {/* Conference Chair Section */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Conference Chair</h2>
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">Conference Chair</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {honarayChair.map((item, index) => (
               <div 
                 key={index}
-                className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
+                className="bg-secondary-100 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
               >
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg sm:text-xl font-semibold text-text-primary mb-2">
                   {item.name}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600">
+                <p className="text-sm sm:text-base text-text-secondary">
                   {item.designation}
                 </p>
               </div>
@@ -576,18 +576,18 @@ function Committe() {
         </div>
 
         {/* Organizing Chair Section */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Organizing Chair</h2>
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">Organizing Chair</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {organizingChair.map((item, index) => (
               <div 
                 key={index}
-                className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
+                className="bg-secondary-100 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
               >
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg sm:text-xl font-semibold text-text-primary mb-2">
                   {item.name}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600">
+                <p className="text-sm sm:text-base text-text-secondary">
                   {item.designation}
                 </p>
               </div>
@@ -596,18 +596,18 @@ function Committe() {
         </div>
 
         {/* Convenor Section */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Convenor</h2>
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">Convenor</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {convenor.map((item, index) => (
               <div 
                 key={index}
-                className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
+                className="bg-secondary-100 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
               >
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg sm:text-xl font-semibold text-text-primary mb-2">
                   {item.name}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600">
+                <p className="text-sm sm:text-base text-text-secondary">
                   {item.designation}
                 </p>
               </div>
@@ -616,18 +616,18 @@ function Committe() {
         </div>
 
         {/* Organizing Secretary Section */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Organizing Secretary</h2>
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">Organizing Secretary</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {organizingSecretary.map((item, index) => (
               <div 
                 key={index}
-                className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
+                className="bg-secondary-100 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
               >
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg sm:text-xl font-semibold text-text-primary mb-2">
                   {item.name}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600">
+                <p className="text-sm sm:text-base text-text-secondary">
                   {item.designation}
                 </p>
               </div>
@@ -636,18 +636,18 @@ function Committe() {
         </div>
 
         {/* Organizing Commitee */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Organizing Commitee</h2>
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">Organizing Commitee</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {organizingCommittee.map((item, index) => (
               <div 
                 key={index}
-                className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
+                className="bg-secondary-100 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
               >
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg sm:text-xl font-semibold text-text-primary mb-2">
                   {item.name}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600">
+                <p className="text-sm sm:text-base text-text-secondary">
                   {item.designation}
                 </p>
               </div>
@@ -656,18 +656,18 @@ function Committe() {
         </div>
 
         {/* International Steering Committee Section */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">International Steering Committee</h2>
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">International Steering Committee</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {internationalAdvisoryCommittee.map((item, index) => (
               <div 
                 key={index}
-                className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
+                className="bg-secondary-100 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
               >
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg sm:text-xl font-semibold text-text-primary mb-2">
                   {item.name}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600">
+                <p className="text-sm sm:text-base text-text-secondary">
                   {item.designation}
                 </p>
               </div>
@@ -676,18 +676,18 @@ function Committe() {
         </div>
 
         {/* National Steering Committee Section */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">National Steering Committee</h2>
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">National Steering Committee</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {nationalAdvisoryCommittee.map((item, index) => (
               <div 
                 key={index}
-                className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
+                className="bg-secondary-100 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
               >
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg sm:text-xl font-semibold text-text-primary mb-2">
                   {item.name}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600">
+                <p className="text-sm sm:text-base text-text-secondary">
                   {item.designation}
                 </p>
               </div>
@@ -696,18 +696,18 @@ function Committe() {
         </div>
 
         {/* Local Advisory Committee Section */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Local Advisory Committee</h2>
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">Local Advisory Committee</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {localAdvisoryCommite.map((item, index) => (
               <div 
                 key={index}
-                className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
+                className="bg-secondary-100 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
               >
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
+                <h3 className="text-lg sm:text-xl font-semibold text-text-primary mb-2">
                   {item.name}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600">
+                <p className="text-sm sm:text-base text-text-secondary">
                   {item.designation}
                 </p>
               </div>

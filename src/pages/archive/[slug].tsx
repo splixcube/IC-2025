@@ -46,7 +46,7 @@ const Post = ({
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <main className={"mx-4"}>
-        <Schedule />
+        {/* <Schedule /> */}
         <br />
         {/*    landing   */}
         <div

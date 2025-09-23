@@ -136,7 +136,7 @@ const Home = () => {
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
-      <Schedule />
+      {/* <Schedule /> */}
       <br/>
 
       {/* Hero Section */}

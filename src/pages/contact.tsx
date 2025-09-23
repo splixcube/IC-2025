@@ -11,7 +11,7 @@ function Partners() {
         <title>Contact Us - ICIDLHV- International Conference on Sustainable &amp;Intelligent Computing in Science and Technology</title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
-      <Schedule />
+      {/* <Schedule /> */}
       <br />
 
       <main className="bg-gradient-to-b from-background-primary to-white px-8 pt-7">

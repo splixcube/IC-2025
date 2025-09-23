@@ -11,7 +11,7 @@ const Speakers = () => {
         <title>Keynote Speakers - ICSICST</title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
-      <Schedule />
+      {/* <Schedule /> */}
       <br />
 
       <main className="bg-gradient-to-b from-background-primary to-white px-4 sm:px-6 lg:px-8 min-h-screen pt-7">
