@@ -260,7 +260,7 @@ const Home = () => {
               (ICIDLHV2026) will be held at Poornima Institute
               of Engineering &amp; Technology, Jaipur, Rajasthan, India on
               May 16-17, 2026.
-
+            </p>
               <p className="text-justify">
                 The changes in present society evolving as a knowledge society have very strong implications on the services of libraries. The advancement in Information & Communication Technologies coupled with social media applications have largely impacted Libraries and Information Centers. The emerging challenges posed by the contemporary environment, manifested in many forms such as digital repositories, big data, cloud computing, open access, user-centric services (e-learning, e-teaching, information literacy, orientation programs), web-based library services, application of social networking, library cooperation (including consortia), and IPR and legal issues, etc., are significant.
               </p>
@@ -278,7 +278,6 @@ const Home = () => {
               </p>
               {<br />}
               {<br />}
-            </p>
             <hr className="my-6 sm:my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
           </div>
 
