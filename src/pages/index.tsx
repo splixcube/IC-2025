@@ -148,7 +148,7 @@ const Home = () => {
               <p className="font-semibold text-primary-600 text-sm sm:text-base">16th & 17th May, 2026</p>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold leading-tight text-text-primary">
+            <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold leading-tight" style={{color: '#3a7e44'}}>
               2nd International Conference on Research Trends of ICT using Digital Libraries with Human Values & Ethics
             </h1>
 
@@ -253,8 +253,8 @@ const Home = () => {
 
         {/* Preamble Section */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
-          <div className="lg:col-span-2 prose prose-sm sm:prose-base lg:prose-lg max-w-none text-text-primary">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-text-primary">About Conference</h2>
+          <div className="lg:col-span-2 prose prose-sm sm:prose-base lg:prose-lg max-w-none" style={{color: '#3a7e44'}}>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{color: '#3a7e44'}}>About Conference</h2>
             <p className="text-justify">
               International Conference on Sustainable &amp; Intelligent Computing in Science and Technology
               (ICIDLHV2026) will be held at Poornima Institute
@@ -333,10 +333,10 @@ const Home = () => {
 
         {/* Objectives Section */}
         <section className="py-8 sm:py-12">
-          <div className="container flex flex-col md:flex-row-reverse gap-6 sm:gap-8">
+          <div className="container flex flex-col md:flex-row-reverse gap-6 sm:gap-8 text-text-primary">
             <div className="md:w-3/4">
-              <div className="space-y-4 sm:space-y-6">
-                <h2 className="text-xl sm:text-2xl font-bold text-text-primary">Objectives</h2>
+              {/* <div className="space-y-4 sm:space-y-6">
+                <h2 className="text-xl sm:text-2xl font-bold" style={{color: '#3a7e44'}}>Objectives</h2>
                 <p className="mb-6 sm:mb-8 text-justify">
                   The main objective of this conference is to provide a platform
                   for researchers, academicians, industry professionals, and
@@ -375,28 +375,41 @@ const Home = () => {
                     across diverse domains.
                   </li>
                 </ul>
-              </div>
+              </div> */}
               
               <div className="mt-8 sm:mt-12 space-y-6 sm:space-y-8">
                 <div>
-                  <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-text-primary">About Rajasthan</h2>
+                  <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{color: '#3a7e44'}}>About Rajasthan</h2>
                   <p className="mb-6 sm:mb-8 text-justify">
                     Rajasthan is the largest state of India by an area 3,42,239 sq km. It encompasses most of the area of the large, inhospitable Great Indian Desert (Thar Desert), which has an edge paralleling the Sutlej-Indus River valley along its border with Pakistan. The state has borders with Pakistan to the west, Gujrat to the southwest, Madhya Pradesh to the southeast, Uttar Pradesh &amp; Haryana to the northeast &amp; Punjab to the north. The glory of the state is retained by its majestic places, forts, monuments, vibrant culture, and rich heritage which draw innumerable tourists from across the globe.
                   </p>
                 </div>
 
                 <div>
-                  <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-text-primary">About Jaipur</h2>
+                  <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{color: '#3a7e44'}}>About Jaipur</h2>
                   <p className="mb-6 sm:mb-8 text-justify">
                     Jaipur (Pink City of India), the capital of Rajasthan state in India, was founded in 1727 by Maharaj Sawai Jai Singh. It is an enormously admired tourist destination in Rajasthan and India. Its features of beautiful Architecture, Town Planning, Arts and Crafts, Culture, tourism have endowed it with uniqueness in India&apos;s urban character. Jaipur being capital of Rajasthan and one of the important cities of Golden Triangle is the focus of the socio-economic and political center of the State. Jaipur is an expression of the astronomical skills, living traditions, unique urban form and exemplary foresighted city planning of an 18th century city from India.
                   </p>
                 </div>
 
                 <div>
-                  <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-text-primary">About Poornima Institute</h2>
+                  <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{color: '#3a7e44'}}>About Poornima Institute</h2>
                   <p className="mb-6 sm:mb-8 text-justify">
-                    Poornima Institute of Engineering and Technology, Jaipur is a premier institution in Engineering Education, established in the academic year 2007. It is affiliated to RTU, Kota and approved by AICTE and it is recognized under UGC 2(f) and  NAAC A Accredited. It is the learning home to a total of 1700 students and is committed to impart best technical skills in students through its six specializations of engineering at UG level.
-                    Being ranked 4th in annual QIV ranking by RTU, Kota. Institute is accredited by NAAC since 2019. PIET is the 2nd Institution across India to offer B. Tech CSE in Indian language under NEP 2020. PIET has been sponsored and funded by AICTE for IDEA Lab first in Rajasthan. PIET got overall Diamond rating in QS i-Gauge. PIET is funded for Rs. 1.7 crore in the last five years from various agencies from agencies like TEQIP III, AICTE, NITTTR etc. PIET has been awarded a center of excellence for Advanced Digital Manufacturing by RTU, Kota that facilitates Skill Development, Hands on learning and innovation.
+                    Poornima Institute of Engineering and Technology (PIET) is a premier 
+                    institution in engineering education, established in the academic year 
+                    2007. Affiliated with Rajasthan Technical University (Kota), approved by 
+                    AICTE, and recognized under UGC 2(f), PIET was accredited with NAAC - 
+                    A Grade in 2025. PIET has been granted Autonomous Status in July 2025, 
+                    marking a significant milestone in its journey toward academic excellence 
+                    and innovation.With over 1700 students, the institute offers eight 
+                    specialized undergraduate engineering programs, focused on imparting 
+                    robust technical skills and holistic development. In recognition of its 
+                    sustained quality enhancement, PIET has consistently ranked among the 
+                    top five institutions under the QIV Ranking by RTU, Kota, and holds a 
+                    Diamond rating by QS I-Gauge.Rated PLATINUM by AICTE-CII Survey for 
+                    strong industry-linked technical institutes, PIET has also been rated 3.5 
+                    Star by the Innovation Council, Ministry of Education, Government of 
+                    India. PIET is the only private institute in Rajasthan to receive funding from AICTE, India for establishing an IDEA Lab.
                   </p>
                 </div>
               </div>
@@ -448,7 +461,7 @@ const Home = () => {
               ]}
             />
           </div>
-          <p className="text-lg sm:text-xl font-semibold text-text-primary">Visitors</p>
+          <p className="text-lg sm:text-xl font-semibold" style={{color: '#3a7e44'}}>Visitors</p>
         </div>
 
         <hr className="my-6 sm:my-8 h-px border-0 bg-gray-200" />
