@@ -14,13 +14,13 @@ function Partners() {
       <Schedule />
       <br />
 
-      <main className="bg-gradient-to-b from-blue-50 to-white px-8 pt-7">
+      <main className="bg-gradient-to-b from-background-primary to-white px-8 pt-7">
         {/* Coming Soon Section */}
-        <div className="bg-white rounded-xl shadow-md p-8 mb-8">
+        <div className="bg-background-primary rounded-xl shadow-md p-8 mb-8">
           <div className="flex flex-col items-center justify-center min-h-[300px] text-center">
-            <div className="bg-blue-50 rounded-full p-8 mb-6">
+            <div className="bg-secondary-100 rounded-full p-8 mb-6">
               <svg 
-                className="w-16 h-16 text-blue-500" 
+                className="w-16 h-16 text-primary-500" 
                 fill="none" 
                 stroke="currentColor" 
                 viewBox="0 0 24 24" 
@@ -34,10 +34,10 @@ function Partners() {
                 />
               </svg>
             </div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+            <h1 className="text-3xl font-bold text-text-primary mb-4">
               Contact Us
             </h1>
-            <p className="text-gray-600 text-lg max-w-2xl">
+            <p className="text-text-secondary text-lg max-w-2xl">
             Email : icsicst@poornima.org <br /> <br /> <br />
             Dr. Bhanu Pratap <br />
             Associate Professor, <br />
@@ -52,9 +52,9 @@ function Partners() {
         </div>
 
         {/* Placeholder for Future Content */}
-        <div className="bg-white rounded-xl shadow-md p-8 mb-8 hidden">
-          <h2 className="text-2xl font-bold mb-6">Conference Partners</h2>
-          <p className="text-gray-700 mb-8">
+        <div className="bg-background-primary rounded-xl shadow-md p-8 mb-8 hidden">
+          <h2 className="text-2xl font-bold mb-6 text-text-primary">Conference Partners</h2>
+          <p className="text-text-secondary mb-8">
             &ldquo;This groundbreaking event marks a new era of innovation, collaboration, and knowledge exchange. 
             Join us as we unveil a remarkable conference experience that will shape the future of technology and academia.&rdquo;
           </p>
@@ -74,9 +74,9 @@ function Partners() {
                 description: "Namibia University provide exceptional education and a vibrant learning community. This institution is dedicated to nurturing intellectual growth, fostering critical thinking skills, and promoting a spirit of innovation. With a wide range of academic programs, state-of-the-art facilities, and a supportive faculty and aim to empower their students to become future leaders and contribute positively to society. The Namibia University provides transformative educational journey, where knowledge meets opportunity."
               }
             ].map((partner, index) => (
-              <div key={index} className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">{partner.name}</h3>
-                <p className="text-gray-600">{partner.description}</p>
+              <div key={index} className="bg-secondary-100 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+                <h3 className="text-xl font-semibold text-text-primary mb-4">{partner.name}</h3>
+                <p className="text-text-secondary">{partner.description}</p>
               </div>
             ))}
           </div>

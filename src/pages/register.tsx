@@ -17,20 +17,20 @@ const Register = () => {
       <Schedule />
       <br />
 
-      <main className="bg-gradient-to-b from-blue-50 to-white px-4 sm:px-6 lg:px-8 pt-7">
+      <main className="bg-gradient-to-b from-background-primary to-white px-4 sm:px-6 lg:px-8 pt-7">
         {/* Registration Details Section */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">
             Registration Details
           </h1>
-          <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8">
+          <p className="text-sm sm:text-base lg:text-lg text-text-secondary mb-6 sm:mb-8">
             For Conference Registration the Author can pay the corresponding fees in the following Bank Account:
           </p>
 
           {/* Registration Fees Table */}
           <div className="overflow-x-auto rounded-lg shadow">
             <table className="w-full text-xs sm:text-sm lg:text-base">
-              <thead className="text-white uppercase bg-[#034EA2]">
+              <thead className="text-white uppercase bg-primary-600">
                 <tr>
                   <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">Category</th>
                   <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">On or Before April 30, 2026</th>
@@ -110,12 +110,12 @@ const Register = () => {
                     late: "INR 2000"
                   }
                 ].map((row, index) => (
-                  <tr key={index} className="bg-white border-b hover:bg-gray-50">
-                    <th scope="row" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 font-medium text-gray-900">
+                  <tr key={index} className="bg-white border-b hover:bg-secondary-50">
+                    <th scope="row" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 font-medium text-text-primary">
                       {row.category}
                     </th>
-                    <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 text-gray-700">{row.early}</td>
-                    <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 text-gray-700">{row.late}</td>
+                    <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 text-text-secondary">{row.early}</td>
+                    <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 text-text-secondary">{row.late}</td>
                   </tr>
                 ))}
               </tbody>
@@ -130,8 +130,8 @@ const Register = () => {
         </div>
 
         {/* Account Details Section */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Account Details</h2>
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6 text-text-primary">Account Details</h2>
           <div className="space-y-3 sm:space-y-4">
             {[
               { label: "Account Name", value: "POORNIMA INSTITUTE PART TWO" },
@@ -141,8 +141,8 @@ const Register = () => {
               { label: "SWIFT Code", value: "HDFCINBBXXX" }
             ].map((detail, index) => (
               <div key={index} className="flex flex-col space-y-1 p-3 sm:p-4 border-b last:border-b-0">
-                <span className="text-xs sm:text-sm lg:text-base font-semibold text-gray-600">{detail.label}</span>
-                <span className="text-sm sm:text-base lg:text-lg text-gray-800">{detail.value}</span>
+                <span className="text-xs sm:text-sm lg:text-base font-semibold text-text-secondary">{detail.label}</span>
+                <span className="text-sm sm:text-base lg:text-lg text-text-primary">{detail.value}</span>
               </div>
             ))}
           </div>

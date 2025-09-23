@@ -38,10 +38,10 @@ const dates = [
 
 function Schedule() {
   return (
-    <div className="bg-gradient-to-b from-blue-50 via-white to-blue-50 py-4 pb-10">
+    <div className="bg-gradient-to-b from-secondary-100 via-white to-secondary-100 py-4 pb-10">
       <div className="max-w-7xl mx-auto px-2 sm:px-4">
         <div className="text-center mb-6 sm:mb-8">
-          <h2 className="text-base sm:text-lg font-bold text-blue-600 mb-3 px-2"> 
+          <h2 className="text-base sm:text-lg font-bold text-primary-600 mb-3 px-2"> 
             <a href="/pdfs/ICSICST2026-Conference-Schedule.pdf" 
                target="_blank" 
                rel="noopener noreferrer"
@@ -49,17 +49,17 @@ function Schedule() {
               Click Here To See Full ICSICST2026 Conference Schedule
             </a>
           </h2>
-          <h2 className="text-base sm:text-lg font-bold text-gray-900">
+          <h2 className="text-base sm:text-lg font-bold text-text-primary">
             Important Dates :
           </h2>
-          <div className="h-0.5 w-12 bg-blue-600 mx-auto"></div>
+          <div className="h-0.5 w-12 bg-primary-600 mx-auto"></div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
           {dates.map((dateInfo, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-sm p-3 sm:p-4 border border-gray-100 hover:shadow-md transition-all duration-200"
+              className="bg-background-primary rounded-lg shadow-sm p-3 sm:p-4 border border-secondary-200 hover:shadow-md transition-all duration-200"
             >
               <div className="flex items-center space-x-3 sm:space-x-4">
                 <div
@@ -81,14 +81,14 @@ function Schedule() {
                   >
                     {dateInfo.label}
                   </h3>
-                  <div className="text-gray-600 text-xs sm:text-sm mt-0.5">
+                  <div className="text-text-secondary text-xs sm:text-sm mt-0.5">
                     {dateInfo.date}
                   </div>
                 </div>
               </div>
 
               <div className="mt-3">
-                <div className="h-1.5 w-full bg-gray-100 rounded-full">
+                <div className="h-1.5 w-full bg-secondary-200 rounded-full">
                   <div
                     className="h-full rounded-full transition-all duration-1000"
                     style={{ 
@@ -103,7 +103,7 @@ function Schedule() {
         </div>
 
         <div className="hidden lg:block relative mt-8">
-          <div className="absolute left-0 right-0 h-0.5 bg-gray-200 top-1/2 transform -translate-y-1/2">
+          <div className="absolute left-0 right-0 h-0.5 bg-secondary-300 top-1/2 transform -translate-y-1/2">
             {dates.map((dateInfo, index) => (
               <div
                 key={index}
@@ -113,7 +113,7 @@ function Schedule() {
                   backgroundColor: dateInfo.color
                 }}
               >
-                <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 text-[11px] sm:text-xs text-gray-500 whitespace-nowrap">
+                <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 text-[11px] sm:text-xs text-text-secondary whitespace-nowrap">
                   {dateInfo.date}
                 </div>
               </div>
