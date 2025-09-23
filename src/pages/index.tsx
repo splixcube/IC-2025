@@ -1,8 +1,4 @@
 import Head from "next/head";
-import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay } from "swiper";
@@ -130,49 +126,38 @@ const Home = () => {
       <br />
 
       {/* Hero Section */}
-      <main className="bg-gradient-to-b from-background-primary to-white px-4 sm:px-6 lg:px-8 rounded-lg">
-        <div className="grid grid-cols-1 lg:grid-cols-5 items-center gap-5 py-4 sm:py-6 lg:py-8">
-          <div className="col-span-full lg:col-span-2 space-y-4 sm:space-y-6">
-            <div className="flex items-center space-x-2 bg-secondary-100 px-3 sm:px-4 py-2 rounded-full w-fit">
-              <RiCalendarTodoFill className="text-lg sm:text-xl text-primary-600" />
-              <p className="font-semibold text-primary-600 text-sm sm:text-base"> 20th & 21st  February, 2026</p>
+      <main className="bg-gradient-to-b from-background-primary to-white px-2 sm:px-4 lg:px-6 xl:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-5 items-center gap-4 sm:gap-6 lg:gap-8 py-4 sm:py-6 lg:py-8">
+          <div className="col-span-full lg:col-span-2 space-y-3 sm:space-y-4 lg:space-y-6">
+            <div className="flex items-center space-x-2 bg-secondary-100 px-3 sm:px-4 py-2 rounded-full w-fit shadow-sm">
+              <RiCalendarTodoFill className="text-base sm:text-lg lg:text-xl text-primary-600 flex-shrink-0" />
+              <p className="font-semibold text-primary-600 text-xs sm:text-sm lg:text-base whitespace-nowrap">20th & 21st February, 2026</p>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold leading-tight" style={{ color: '#3a7e44' }}>
+            <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight" style={{ color: '#3a7e44' }}>
               2nd International Conference on Research Trends of ICT using Digital Libraries with Human Values & Ethics
             </h1>
 
-            <div className="flex items-center space-x-2">
-              <RiMapPin2Fill className="text-lg sm:text-xl text-primary-600" />
+            <div className="flex items-start space-x-2">
+              <RiMapPin2Fill className="text-base sm:text-lg lg:text-xl text-primary-600 flex-shrink-0 mt-1" />
               <div className="text-primary-600">
-                <p className="font-semibold text-sm sm:text-base">Poornima Institute of Engineering and technology</p>
-                <p className="text-xs sm:text-sm">Sitapura Jaipur, Rajasthan</p>
+                <p className="font-semibold text-xs sm:text-sm lg:text-base">Poornima Institute of Engineering and Technology</p>
+                <p className="text-xs sm:text-sm text-gray-600">Sitapura Jaipur, Rajasthan</p>
               </div>
             </div>
 
-            <div className="flex space-x-3 sm:space-x-5 text-xl sm:text-2xl text-primary-600">
-              <Link href={"tel:+91-9950809459"} aria-label={"ICIDLHV phone"}>
-                <RiPhoneFill
-                  className={
-                    "grow-on-hover cursor-pointer hover:text-emerald-500"
-                  }
-                />
+            <div className="flex space-x-3 sm:space-x-4 lg:space-x-5 text-lg sm:text-xl lg:text-2xl text-primary-600">
+              <Link href={"tel:+91-9950809459"} aria-label={"ICIDLHV phone"} className="hover:scale-110 transition-transform duration-200">
+                <RiPhoneFill className="cursor-pointer hover:text-emerald-500 transition-colors duration-200" />
               </Link>
-              <Link
-                href={"mailto:icidlhv2023@poornima.org"}
-                aria-label={"ICIDLHV mail"}
-              >
-                <RiMailFill
-                  className={
-                    "grow-on-hover cursor-pointer hover:text-amber-400"
-                  }
-                />
+              <Link href={"mailto:icidlhv2023@poornima.org"} aria-label={"ICIDLHV mail"} className="hover:scale-110 transition-transform duration-200">
+                <RiMailFill className="cursor-pointer hover:text-amber-400 transition-colors duration-200" />
               </Link>
             </div>
           </div>
 
           <div className="col-span-full lg:col-span-3">
-            <div className="rounded-xl overflow-hidden shadow-lg bg-white">
+            <div className="rounded-xl overflow-hidden shadow-lg bg-white border border-gray-100">
               <Carousel
                 autoPlay={true}
                 interval={4000}
@@ -180,15 +165,15 @@ const Home = () => {
                 renderArrowLeft={() => null}
                 renderArrowRight={() => null}
                 renderDots={({ setActiveIndex, activeIndex }) => (
-                  <div className="absolute bottom-0 left-0 right-0 flex h-8 sm:h-12 items-center justify-center gap-2 sm:gap-3 bg-gradient-to-t from-black/50 to-transparent">
+                  <div className="absolute bottom-0 left-0 right-0 flex h-6 sm:h-8 lg:h-12 items-center justify-center gap-1.5 sm:gap-2 lg:gap-3 bg-gradient-to-t from-black/50 to-transparent">
                     {sliderImages.map((_, index) => (
                       <button
                         key={index}
                         onClick={() => setActiveIndex(index)}
-                        className={`h-2 sm:h-2.5 transition-all duration-300 rounded-full
+                        className={`h-1.5 sm:h-2 lg:h-2.5 transition-all duration-300 rounded-full
                           ${index === activeIndex
-                            ? 'bg-white w-3 sm:w-4'
-                            : 'bg-white/50 w-2 sm:w-2.5 hover:bg-white/80'}`}
+                            ? 'bg-white w-3 sm:w-4 lg:w-5'
+                            : 'bg-white/50 w-1.5 sm:w-2 lg:w-2.5 hover:bg-white/80'}`}
                         aria-label={`Go to slide ${index + 1}`}
                       />
                     ))}
@@ -209,8 +194,8 @@ const Home = () => {
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 75vw, 66vw"
                       draggable={false}
                     />
-                    <div className="absolute bottom-8 sm:bottom-12 left-0 right-0 px-4 text-center">
-                      <h3 className="text-white text-base sm:text-xl font-semibold drop-shadow-lg">
+                    <div className="absolute bottom-6 sm:bottom-8 lg:bottom-12 left-0 right-0 px-4 text-center">
+                      <h3 className="text-white text-sm sm:text-base lg:text-xl font-semibold drop-shadow-lg">
                         {image.title}
                       </h3>
                     </div>
@@ -221,103 +206,103 @@ const Home = () => {
           </div>
         </div>
 
-        <hr className="my-6 sm:my-8 h-px border-0 bg-gray-200" />
+        <hr className="my-4 sm:my-6 lg:my-8 h-px border-0 bg-gray-200" />
 
         {/* Preamble Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
-          <div className="lg:col-span-2 prose prose-sm sm:prose-base lg:prose-lg max-w-none" style={{ color: '#3a7e44' }}>
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#3a7e44' }}>About Conference</h2>
-            <p className="text-justify">
-              International Conference on Sustainable &amp; Intelligent Computing in Science and Technology
-              (ICIDLHV2026) will be held at Poornima Institute
-              of Engineering &amp; Technology, Jaipur, Rajasthan, India on
-              May 16-17, 2026.
-            </p>
-              <p className="text-justify">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+          <div className="lg:col-span-3 prose prose-sm sm:prose-base lg:prose-lg max-w-none" style={{ color: '#3a7e44' }}>
+            <h2 className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-bold mb-3 sm:mb-4 lg:mb-6" style={{ color: '#3a7e44' }}>About Conference</h2>
+            <div className="space-y-3 sm:space-y-4 text-sm sm:text-base lg:text-base">
+              <p className="text-justify leading-relaxed">
+                International Conference on Sustainable &amp; Intelligent Computing in Science and Technology
+                (ICIDLHV2026) will be held at Poornima Institute
+                of Engineering &amp; Technology, Jaipur, Rajasthan, India on
+                February 20-21, 2026.
+              </p>
+              <p className="text-justify leading-relaxed">
                 The changes in present society evolving as a knowledge society have very strong implications on the services of libraries. The advancement in Information & Communication Technologies coupled with social media applications have largely impacted Libraries and Information Centers. The emerging challenges posed by the contemporary environment, manifested in many forms such as digital repositories, big data, cloud computing, open access, user-centric services (e-learning, e-teaching, information literacy, orientation programs), web-based library services, application of social networking, library cooperation (including consortia), and IPR and legal issues, etc., are significant.
               </p>
-              <p className="text-justify">
+              <p className="text-justify leading-relaxed">
                 Conspicuously, a variety of forces, most specifically economic changes and technological developments, have reshaped and transformed libraries from storehouses and data archives to information/knowledge centers and community spaces. The initiatives of government towards building a digital-based society, fostering skill development, and promoting a collaborative and shared ambience have virtually changed the very face of the present society.
               </p>
-              <p className="text-justify">
+              <p className="text-justify leading-relaxed">
                 The conference theme is aptly selected to enable deliberations on the challenges faced by libraries and information centers. The fast-changing social, cultural, and economic environments pose different types of challenges for libraries and information centers, as they are a reflection of society. It is perceived that the deliberations in the conference will help in understanding newer avenues for teaching and learning with ample emphasis on e-Learning, e-Publishing, OERs, and MOOCs.
               </p>
-              <p className="text-justify">
+              <p className="text-justify leading-relaxed">
                 Libraries, as intermediaries, have a larger role to imbibe these advancements and changes and to develop services to help the academic community and the society cope with these developments. Research and innovation are constantly demanding availability of research data management and the search for newer strategies and techniques to adapt to the challenges. The changes in library and information services are inevitable, and so library professionals must get actively involved in the core missions and values of ICT-based tools and techniques.
               </p>
-              <p className="text-justify">
+              <p className="text-justify leading-relaxed">
                 Librarianship, not to be left behind, strives to develop and achieve new strategies and competencies as well as explore new arenas to put into use the technical skills for furthering library and information services more valuably and effectively.
               </p>
-              {<br />}
-              {<br />}
-            <hr className="my-6 sm:my-8 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+            </div>
+            <hr className="my-4 sm:my-6 lg:my-8 h-px border-0 bg-gray-200" />
           </div>
 
-
-
-            {/* Background decoration */}
-          
-            <div className="absolute top-0 right-0 w-20 h-20 bg-primary-100 rounded-full -translate-y-10 translate-x-10 opacity-50"></div>
-            <div className="absolute bottom-0 left-0 w-16 h-16 bg-secondary-100 rounded-full translate-y-8 -translate-x-8 opacity-50"></div>
-            
-            <div className="relative z-10">
-              <div className="text-center mb-6">
-                <h2 className="text-2xl sm:text-3xl font-bold mb-2 bg-gradient-to-r from-primary-600 to-primary-800 bg-clip-text text-transparent">
-                  In Collaboration With
-                </h2>
-                <div className="w-24 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto rounded-full"></div>
-              </div>
+          {/* Collaboration Section */}
+          <div className="lg:col-span-1">
+            <div className="bg-gradient-to-br from-background-primary to-white rounded-xl shadow-lg border border-gray-100 p-3 sm:p-4 lg:p-6 relative overflow-hidden h-fit">
+              {/* Background decoration */}
+              <div className="absolute top-0 right-0 w-12 sm:w-16 lg:w-20 h-12 sm:h-16 lg:h-20 bg-primary-100 rounded-full -translate-y-6 sm:-translate-y-8 lg:-translate-y-10 translate-x-6 sm:translate-x-8 lg:translate-x-10 opacity-50"></div>
+              <div className="absolute bottom-0 left-0 w-10 sm:w-12 lg:w-16 h-10 sm:h-12 lg:h-16 bg-secondary-100 rounded-full translate-y-5 sm:translate-y-6 lg:translate-y-8 -translate-x-5 sm:-translate-x-6 lg:-translate-x-8 opacity-50"></div>
               
-              <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 shadow-inner border border-gray-50">
-                <div className="flex h-[280px] sm:h-[320px] w-full overflow-hidden rounded-lg">
-                  <Carousel
-                    autoPlay={true}
-                    interval={4000}
-                    loop={true}
-                    renderArrowLeft={() => null}
-                    renderArrowRight={() => null}
-                    renderDots={({ setActiveIndex, activeIndex }) => {
-                      return (
-                        <div className="absolute bottom-4 left-0 right-0 flex items-center justify-center gap-2">
-                          {logoImages.map((_, index) => (
-                            <button
-                              key={index}
-                              onClick={() => setActiveIndex(index)}
-                              className={`h-3 transition-all duration-300 rounded-full
-                                ${index === activeIndex
-                                  ? 'bg-primary-500 w-8 shadow-lg'
-                                  : 'bg-white/60 w-3 hover:bg-white/80 hover:w-4'}`}
-                              aria-label={`Go to collaboration slide ${index + 1}`}
+              <div className="relative z-10">
+                <div className="text-center mb-4 sm:mb-6">
+                  <h2 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2 bg-gradient-to-r from-primary-600 to-primary-800 bg-clip-text text-transparent">
+                    In Collaboration With
+                  </h2>
+                  <div className="w-16 sm:w-20 lg:w-24 h-0.5 sm:h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto rounded-full"></div>
+                </div>
+                
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-3 sm:p-4 shadow-inner border border-gray-50">
+                  <div className="flex h-[200px] sm:h-[240px] lg:h-[280px] w-full overflow-hidden rounded-lg">
+                    <Carousel
+                      autoPlay={true}
+                      interval={4000}
+                      loop={true}
+                      renderArrowLeft={() => null}
+                      renderArrowRight={() => null}
+                      renderDots={({ setActiveIndex, activeIndex }) => {
+                        return (
+                          <div className="absolute bottom-2 sm:bottom-4 left-0 right-0 flex items-center justify-center gap-1.5 sm:gap-2">
+                            {logoImages.map((_, index) => (
+                              <button
+                                key={index}
+                                onClick={() => setActiveIndex(index)}
+                                className={`h-2 sm:h-3 transition-all duration-300 rounded-full
+                                  ${index === activeIndex
+                                    ? 'bg-primary-500 w-6 sm:w-8 shadow-lg'
+                                    : 'bg-white/60 w-2 sm:w-3 hover:bg-white/80 hover:w-3 sm:hover:w-4'}`}
+                                aria-label={`Go to collaboration slide ${index + 1}`}
+                              />
+                            ))}
+                          </div>
+                        );
+                      }}
+                    >
+                      {logoImages.map((image, index) => (
+                        <div
+                          key={index}
+                          className="flex h-full w-full items-center justify-center p-4 sm:p-6 lg:p-8"
+                        >
+                          <div className="relative group">
+                            <div className="absolute inset-0 bg-gradient-to-r from-primary-200 to-secondary-200 rounded-xl blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-500"></div>
+                            <Image
+                              height={300}
+                              width={400}
+                              draggable={false}
+                              className="relative max-h-[160px] sm:max-h-[200px] lg:max-h-[240px] w-auto object-contain drop-shadow-xl transition-all duration-500 group-hover:scale-110 group-hover:drop-shadow-2xl rounded-lg"
+                              src={image.image}
+                              alt={image.alt || "Publication Partner Logo"}
                             />
-                          ))}
+                          </div>
                         </div>
-                      );
-                    }}
-                  >
-                    {logoImages.map((image, index) => (
-                      <div
-                        key={index}
-                        className="flex h-full w-full items-center justify-center p-6 sm:p-10"
-                      >
-                        <div className="relative group">
-                          <div className="absolute inset-0 bg-gradient-to-r from-primary-200 to-secondary-200 rounded-xl blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-500"></div>
-                          <Image
-                            height={300}
-                            width={400}
-                            draggable={false}
-                            className="relative max-h-[220px] sm:max-h-[260px] w-auto object-contain drop-shadow-xl transition-all duration-500 group-hover:scale-110 group-hover:drop-shadow-2xl rounded-lg"
-                            src={image.image}
-                            alt={image.alt || "Publication Partner Logo"}
-                          />
-                        </div>
-                      </div>
-                    ))}
-                  </Carousel>
+                      ))}
+                    </Carousel>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="bg-gradient-to-br from-background-primary to-white rounded-xl shadow-lg border border-gray-100 p-4 sm:p-6 relative overflow-hidden">
         </div>
 
         {/* Objectives Section */}
