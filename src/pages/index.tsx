@@ -169,26 +169,16 @@ const Home = () => {
                   className={"grow-on-hover cursor-pointer hover:text-sky-500"}
                 />
               </Link> */}
-              <Link href={"tel:+91-8118874724"} aria-label={"icimmi phone"}>
+              <Link href={"tel:+91-9950809459"} aria-label={"ICIDLHV phone"}>
                 <RiPhoneFill
                   className={
                     "grow-on-hover cursor-pointer hover:text-emerald-500"
                   }
                 />
               </Link>
-              {/* <Link
-                href={"https://www.piet.poornima.org/"}
-                aria-label={"icimmi facebook"}
-              >
-                <RiFacebookBoxFill
-                  className={
-                    "grow-on-hover cursor-pointer hover:text-indigo-700"
-                  }
-                />
-              </Link> */}
               <Link
-                href={"mailto:icsicst@poornima.org"}
-                aria-label={"ICIDLHVmail"}
+                href={"mailto:icidlhv2023@poornima.org"}
+                aria-label={"ICIDLHV mail"}
               >
                 <RiMailFill
                   className={
