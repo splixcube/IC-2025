@@ -425,7 +425,7 @@ const Home = () => {
               {["/bg.JPG", "/gallery/2022/i1.jpg", "/gallery/city_images/RAJASTHAN.jpg",
                 "/gallery/city_images/jaipur.jpg", "/gallery/city_images/jaipur-hd-img.webp"].map((src, index) => (
                   <div key={index} className="rounded-xl overflow-hidden shadow-lg">
-                    <img
+                    <Image
                       src={src}
                       alt="Conference venue and location images"
                       className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
