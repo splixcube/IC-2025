@@ -8,7 +8,7 @@ const callForPapers = () => {
         <>
             <Head>
                 <title>404 - ICIDLHV- PIET-2026</title>
-                
+
             </Head>
             <div className={"min-h-screen flex items-center justify-center"}>
                 <section className="flex items-center h-full p-16 dark:bg-gray-900 dark:text-gray-100">
