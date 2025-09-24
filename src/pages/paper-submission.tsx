@@ -21,30 +21,30 @@ function PaperSubmission() {
       <main className="bg-gradient-to-b from-background-primary to-white px-4 sm:px-6 lg:px-8 pt-7">
         {/* Downloads Section */}
         <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 lg:mb-10 flex flex-col items-center text-center max-w-lg mx-auto">
-          
+
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-6 sm:mb-8 text-text-primary">
-           Ready to Submit Your Paper?
-            </h2>
-            <div className="flex flex-col space-y-4 sm:space-y-5">
-              <Link
-                href="https://cmt3.research.microsoft.com/ICSICST2026/Submission/Index"
-                className="inline-flex items-center px-5 sm:px-7 py-3 sm:py-4 bg-primary-600 text-white text-sm sm:text-base font-medium rounded-xl hover:bg-primary-700 transition-all duration-300 shadow-md hover:shadow-lg w-fit"
+            Ready to Submit Your Paper?
+          </h2>
+          <div className="flex flex-col space-y-4 sm:space-y-5">
+            <Link
+              href="https://cmt3.research.microsoft.com/ICSICST2026/Submission/Index"
+              className="inline-flex items-center px-5 sm:px-7 py-3 sm:py-4 bg-primary-600 text-white text-sm sm:text-base font-medium rounded-xl hover:bg-primary-700 transition-all duration-300 shadow-md hover:shadow-lg w-fit"
+            >
+              <svg
+                className="mr-2 h-5 w-5 sm:h-6 sm:w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
               >
-                <svg
-                  className="mr-2 h-5 w-5 sm:h-6 sm:w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-                </svg>
-                Submit Paper Now
-              </Link>
-            </div>
+                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+              </svg>
+              Submit Paper Now
+            </Link>
           </div>
+        </div>
         <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 lg:mb-10 flex flex-col items-center text-center max-w-lg mx-auto">
-          
-        <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6 text-text-primary">Downloads</h2>
+
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6 text-text-primary">Downloads</h2>
           <div className="flex flex-col space-y-3 sm:space-y-4">
             {[
               { text: "Paper Template For AIPCP Conference Proceedings", href: "https://docs.google.com/document/d/17t9-gdQPzWw5SWyTmQuX-ewVFIqkscJi/edit?usp=drive_link&ouid=104022846042193403930&rtpof=true&sd=true" },
@@ -67,12 +67,12 @@ function PaperSubmission() {
               </Link>
             ))}
           </div>
-          </div>
-          
+        </div>
+
         {/* Guidelines Section */}
         <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">Paper Submission Guidelines And Publication Ethics</h1>
-          
+
           <div className="space-y-4 sm:space-y-6">
             <div>
               <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold mb-3 sm:mb-4 text-text-primary">Instructions:</h2>
@@ -85,7 +85,7 @@ function PaperSubmission() {
                   "The full article must be submitted as a MS Word file in DOC or DOCX format.",
                   "Before submitting your paper, please ensure that the English used is clear, concise and coherent. This is especially important if English is not your first language.",
                 ].map((item, index) => (
-                  <div key={index} className="flex items-start space-x-2 sm:space-x-3"> 
+                  <div key={index} className="flex items-start space-x-2 sm:space-x-3">
                     <div className="mt-2 h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-primary-500 flex-shrink-0" />
                     <p className="text-sm sm:text-base lg:text-lg text-text-secondary">{item}</p>
                   </div>
@@ -96,7 +96,7 @@ function PaperSubmission() {
             <div className="bg-secondary-100 rounded-lg p-4 sm:p-6">
               <p className="text-sm sm:text-base lg:text-lg text-text-secondary">
                 <span className="font-bold">Note: </span>
-                At least one author must register for the paper to be included in the conference. Only registered &amp; presented authors will be allowed to present papers and will be given the conference certificates. Only presented papers will be recommended for publication. Nobody will be allowed to make more than two presentations during the conference. This is done to ensure diversity and inclusivity of more active participants in the conference. 
+                At least one author must register for the paper to be included in the conference. Only registered &amp; presented authors will be allowed to present papers and will be given the conference certificates. Only presented papers will be recommended for publication. Nobody will be allowed to make more than two presentations during the conference. This is done to ensure diversity and inclusivity of more active participants in the conference.
                 <span className="font-bold"> NO PAPER TO HAVE MORE THAN SIX AUTHORS.</span>
                 <span className="font-bold"> THE PAPER SHALL NOT BE LESS THAN FOUR PAGES AND MORE THAN 10 PAGES.</span>
               </p>
@@ -143,7 +143,7 @@ function PaperSubmission() {
           </p>
         </div>
 
-        
+
 
         <Sponsored />
       </main>
