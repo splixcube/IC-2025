@@ -3,11 +3,11 @@ import Head from "next/head";
 import React from "react";
 import Sponsored from "@/components/sponsored";
 import Schedule from "@/components/schedule";
-import { 
-  RiFacebookBoxFill, 
-  RiLinkedinBoxFill, 
-  RiTwitterFill, 
-  RiWhatsappFill 
+import {
+  RiFacebookBoxFill,
+  RiLinkedinBoxFill,
+  RiTwitterFill,
+  RiWhatsappFill
 } from "react-icons/ri";
 
 const callForPapers = () => {
@@ -35,89 +35,89 @@ const callForPapers = () => {
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
-  {/* Block 1: Sustainable Computing */}
-  <div>
-    <h1 className="text-2xl text-text-primary">Intelligent Systems:</h1>
-    <div className="space-y-2 mt-2">
-      {[
-        "Artificial Intelligence & Machine Learning",
-        "Image Processing and Pattern Recognition",
-        "Robotics and automation",
-        "Big data analytics and data mining",
-        "Internet of Things (IoT) and smart systems"
-      ].map((item, index) => (
-        <div key={index} className="flex items-start space-x-2">
-          <div className="mt-1.5 h-2 w-2 rounded-full bg-primary-500 flex-shrink-0" />
-          <p className="text-sm sm:text-base text-text-secondary">{item}</p>
-        </div>
-      ))}
-    </div>
-  </div>
-
-  {/* Block 2: Intelligent Computing */}
-  <div>
-    <h1 className="text-2xl text-text-primary">Sustainable Computing:</h1>
-    <div className="space-y-2 mt-2">
-      {[
-        "Complex systems: modelling and simulation",
-        "Sustainable communication and security",
-        "Energy-efficient computing systems and algorithms",
-        "Green data centers and cloud computing",
-        "Responsible & Re-usable Computing"
-      ].map((item, index) => (
-        <div key={index} className="flex items-start space-x-2">
-          <div className="mt-1.5 h-2 w-2 rounded-full bg-primary-500 flex-shrink-0" />
-          <p className="text-sm sm:text-base text-text-secondary">{item}</p>
-        </div>
-      ))}
-    </div>
-  </div>
-
-  {/* Block 3: Embedded Systems And VLSI Designing */}
-  <div>
-    <h1 className="text-2xl text-text-primary">Advancements in Science and Engineering:</h1>
-    <div className="space-y-2 mt-2">
-      {[
-        "Quantum Computing",
-        "Medical Electronics and Astrophysics",
-        "Digital Materials Design and Materials Informatics",
-        "Flexible Electronics & VLSI",
-        "Semiconductor Technology"
-      ].map((item, index) => (
-        <div key={index} className="flex items-start space-x-2">
-          <div className="mt-1.5 h-2 w-2 rounded-full bg-primary-500 flex-shrink-0" />
-          <p className="text-sm sm:text-base text-text-secondary">{item}</p>
-        </div>
-      ))}
-    </div>
-  </div>
-
-  {/* Block 4: Engineering Materials */}
-  <div>
-    <h1 className="text-2xl text-text-primary">Emerging Material Science:</h1>
-    <div className="space-y-2 mt-2">
-      {[
-        "Nanomaterials",
-        "Superconductors",
-        "Advanced polymers",
-        "Biomaterials & Biotechnology",
-        "Computational Material Science"
-      ].map((item, index) => (
-        <div key={index} className="flex items-start space-x-2">
-          <div className="mt-1.5 h-2 w-2 rounded-full bg-primary-500 flex-shrink-0" />
-          <p className="text-sm sm:text-base text-text-secondary">{item}</p>
-        </div>
-      ))}
-    </div>
-  </div>
-</div>
-
-            <div className="bg-secondary-100 rounded-lg p-4 sm:p-6 mt-6">
-              <p className="text-sm sm:text-base lg:text-lg text-text-secondary">
-                <span className="font-bold">Note: </span>
-                Session wise " Best Paper Award " along with certificates to all the authors.
-              </p>
+            {/* Block 1: Sustainable Computing */}
+            <div>
+              <h1 className="text-2xl text-text-primary">Intelligent Systems:</h1>
+              <div className="space-y-2 mt-2">
+                {[
+                  "Artificial Intelligence & Machine Learning",
+                  "Image Processing and Pattern Recognition",
+                  "Robotics and automation",
+                  "Big data analytics and data mining",
+                  "Internet of Things (IoT) and smart systems"
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start space-x-2">
+                    <div className="mt-1.5 h-2 w-2 rounded-full bg-primary-500 flex-shrink-0" />
+                    <p className="text-sm sm:text-base text-text-secondary">{item}</p>
+                  </div>
+                ))}
+              </div>
             </div>
+
+            {/* Block 2: Intelligent Computing */}
+            <div>
+              <h1 className="text-2xl text-text-primary">Sustainable Computing:</h1>
+              <div className="space-y-2 mt-2">
+                {[
+                  "Complex systems: modelling and simulation",
+                  "Sustainable communication and security",
+                  "Energy-efficient computing systems and algorithms",
+                  "Green data centers and cloud computing",
+                  "Responsible & Re-usable Computing"
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start space-x-2">
+                    <div className="mt-1.5 h-2 w-2 rounded-full bg-primary-500 flex-shrink-0" />
+                    <p className="text-sm sm:text-base text-text-secondary">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Block 3: Embedded Systems And VLSI Designing */}
+            <div>
+              <h1 className="text-2xl text-text-primary">Advancements in Science and Engineering:</h1>
+              <div className="space-y-2 mt-2">
+                {[
+                  "Quantum Computing",
+                  "Medical Electronics and Astrophysics",
+                  "Digital Materials Design and Materials Informatics",
+                  "Flexible Electronics & VLSI",
+                  "Semiconductor Technology"
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start space-x-2">
+                    <div className="mt-1.5 h-2 w-2 rounded-full bg-primary-500 flex-shrink-0" />
+                    <p className="text-sm sm:text-base text-text-secondary">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Block 4: Engineering Materials */}
+            <div>
+              <h1 className="text-2xl text-text-primary">Emerging Material Science:</h1>
+              <div className="space-y-2 mt-2">
+                {[
+                  "Nanomaterials",
+                  "Superconductors",
+                  "Advanced polymers",
+                  "Biomaterials & Biotechnology",
+                  "Computational Material Science"
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start space-x-2">
+                    <div className="mt-1.5 h-2 w-2 rounded-full bg-primary-500 flex-shrink-0" />
+                    <p className="text-sm sm:text-base text-text-secondary">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-secondary-100 rounded-lg p-4 sm:p-6 mt-6">
+            <p className="text-sm sm:text-base lg:text-lg text-text-secondary">
+              <span className="font-bold">Note: </span>
+              Session wise " Best Paper Award " along with certificates to all the authors.
+            </p>
+          </div>
         </div>
 
         {/* Why Attend Section */}
@@ -149,7 +149,7 @@ const callForPapers = () => {
 
         {/* Join Community Section */}
         {/* <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8"> */}
-          {/* <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Join the IC-SICST Community</h2>
+        {/* <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Join the IC-SICST Community</h2>
           <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8">
             If you are passionate about the future of technology and its positive impact on society, IC-SICS is the perfect platform for you. Join us to explore the frontiers of sustainable and intelligent computing and shape the future together.
           </p>
@@ -195,7 +195,7 @@ const callForPapers = () => {
             ))}
           </div> */}
 
-          {/* <div className="sm:mt-8 p-4 sm:p-6 bg-blue-50 rounded-lg">
+        {/* <div className="sm:mt-8 p-4 sm:p-6 bg-blue-50 rounded-lg">
             <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-3 sm:mb-4">
               Stay Connected
             </h3>
@@ -250,7 +250,7 @@ const callForPapers = () => {
             <p>Email: Bhanu.pratap@poornima.org</p>
             <p>Phone: +91 8118874724</p>
           </div>
-        </div> */}  
+        </div> */}
 
         <Sponsored />
       </main>
