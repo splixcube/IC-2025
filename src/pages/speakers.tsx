@@ -14,7 +14,7 @@ const Speakers = () => {
       {/* <Schedule /> */}
       <br />
 
-      <main className="bg-gradient-to-b from-background-primary to-white px-4 sm:px-6 lg:px-8 min-h-screen pt-7">
+      <main className="bg-gradient-to-br from-background-primary via-white to-secondary-50 px-4 sm:px-6 lg:px-8 min-h-screen pt-8 pb-12">
         <div className="max-w-7xl mx-auto">
           <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-6 sm:mb-8 lg:mb-12 text-text-primary">
