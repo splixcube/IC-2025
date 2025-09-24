@@ -47,27 +47,24 @@ const Dropdown = ({
     >
       <button
         onClick={dropToggle}
-        className={`group inline-flex items-center justify-between w-full py-3 px-4 text-left transition-all duration-200 hover:bg-primary-700 rounded-lg ${
-          isMobile ? "text-white" : "text-secondary-200 hover:text-white"
-        }`}
+        className={`group inline-flex items-center justify-between w-full py-3 px-4 text-left transition-all duration-200 hover:bg-primary-700 rounded-lg ${isMobile ? "text-white" : "text-secondary-200 hover:text-white"
+          }`}
       >
         <span className="text-sm font-medium uppercase tracking-wider">
           {title}
         </span>
-        <AiFillCaretDown 
-          className={`ml-2 text-xs transition-transform duration-200 ${
-            dropOpen ? "rotate-180" : ""
-          }`} 
+        <AiFillCaretDown
+          className={`ml-2 text-xs transition-transform duration-200 ${dropOpen ? "rotate-180" : ""
+            }`}
         />
       </button>
-      
+
       {dropOpen && (
         <div
-          className={`${
-            isMobile 
-              ? "mt-2 w-full bg-primary-800 rounded-lg" 
+          className={`${isMobile
+              ? "mt-2 w-full bg-primary-800 rounded-lg"
               : "absolute left-0 top-full mt-2 w-64 bg-white shadow-xl rounded-lg border border-gray-100 z-50"
-          }`}
+            }`}
         >
           <ul className="py-2">
             {dropdown.map((item, index) => {
@@ -77,13 +74,12 @@ const Dropdown = ({
                   <Link
                     href={item.link}
                     onClick={handleLinkClick}
-                    className={`block px-4 py-3 text-sm font-medium transition-colors duration-200 ${
-                      isMobile
+                    className={`block px-4 py-3 text-sm font-medium transition-colors duration-200 ${isMobile
                         ? "text-secondary-200 hover:text-white hover:bg-primary-900"
                         : isActive
-                        ? "bg-secondary-100 border-l-4 border-primary-600"
-                        : "hover:bg-secondary-50"
-                    }`}
+                          ? "bg-secondary-100 border-l-4 border-primary-600"
+                          : "hover:bg-secondary-50"
+                      }`}
                     style={!isMobile ? { color: '#3a7e44' } : {}}
                   >
                     {item.title}
@@ -144,7 +140,7 @@ function Index() {
 
   const [menuOpen, setMenu] = useState(false);
   const router = useRouter();
-  
+
   const closeMenu = () => {
     setMenu(false);
   };
@@ -190,9 +186,9 @@ function Index() {
                   priority
                 />
               </div>
-              
+
               <div className="flex flex-col">
-                <span 
+                <span
                   className="text-xl sm:text-2xl font-bold"
                   style={{ color: '#3a7e44' }}
                 >
@@ -235,24 +231,22 @@ function Index() {
             <ul className="flex items-center justify-center space-x-6 py-3">
               {links.map((link, index) => {
                 if (!link.enabled || !link.link) return null;
-                
+
                 const isActive = router.asPath === link.link;
-                
+
                 return (
                   <li key={index}>
-                    <Link 
+                    <Link
                       href={link.link}
-                      className={`group relative px-4 py-2 text-sm font-semibold uppercase tracking-wide transition-all duration-200 rounded hover:bg-secondary-50 whitespace-nowrap ${
-                        isActive 
-                          ? 'bg-secondary-100' 
+                      className={`group relative px-4 py-2 text-sm font-semibold uppercase tracking-wide transition-all duration-200 rounded hover:bg-secondary-50 whitespace-nowrap ${isActive
+                          ? 'bg-secondary-100'
                           : ''
-                      }`}
+                        }`}
                       style={{ color: isActive ? '#118B50' : '#3a7e44' }}
                     >
                       {link.title}
-                      <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-primary-600 transform transition-transform duration-200 ${
-                        isActive ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
-                      }`}></span>
+                      <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-primary-600 transform transition-transform duration-200 ${isActive ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
+                        }`}></span>
                     </Link>
                   </li>
                 );
@@ -261,10 +255,9 @@ function Index() {
           </div>
 
           {/* Mobile Navigation Menu */}
-          <div 
-            className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-              menuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
-            }`}
+          <div
+            className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${menuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+              }`}
           >
             <div className="px-3 pt-3 pb-4 space-y-1 bg-gradient-to-br from-primary-600 to-primary-700 rounded-lg mt-2 mb-4">
               {/* College Logo for Mobile */}
@@ -277,22 +270,21 @@ function Index() {
                   alt="College Logo"
                 />
               </div>
-              
+
               {links.map((link, index) => {
                 if (!link.enabled || !link.link) return null;
-                
+
                 const isActive = router.asPath === link.link;
-                
+
                 return (
                   <Link
                     key={index}
                     href={link.link}
                     onClick={handleLinkClick}
-                    className={`block px-4 py-3 text-sm font-medium uppercase tracking-wide transition-colors duration-200 rounded-lg ${
-                      isActive 
-                        ? 'bg-primary-800 text-white border-l-4 border-secondary-200' 
+                    className={`block px-4 py-3 text-sm font-medium uppercase tracking-wide transition-colors duration-200 rounded-lg ${isActive
+                        ? 'bg-primary-800 text-white border-l-4 border-secondary-200'
                         : 'text-secondary-200 hover:text-white hover:bg-primary-700'
-                    }`}
+                      }`}
                   >
                     {link.title}
                   </Link>
