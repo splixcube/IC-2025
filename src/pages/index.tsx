@@ -188,8 +188,7 @@ const Home = () => {
                     <Image
                       src={image.image}
                       alt={image.alt}
-                      width={1920}
-                      height={1080}
+                      fill
                       priority={index === 0}
                       className="object-cover"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 75vw, 66vw"
