@@ -163,7 +163,7 @@ function Index() {
             <span className="text-secondary-200">📞 +91-9950809459</span>
           </div>
           <div className="flex flex-col sm:flex-row items-center space-y-1 sm:space-y-0 sm:space-x-2">
-            <span className="text-secondary-200">📅 May 16-17, 2026</span>
+            <span className="text-secondary-200">📅 February 20-21, 2026</span>
             <span className="text-secondary-200">📍 Jaipur, Rajasthan, India</span>
           </div>
         </div>
