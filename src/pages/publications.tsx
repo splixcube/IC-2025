@@ -21,7 +21,7 @@ function Publications() {
         {/* Coming Soon Section */}
         {/* <div className="bg-white rounded-xl shadow-md p-8 mb-8">
           <div className="flex flex-col items-center justify-center min-h-[300px] text-center"> */}
-            {/* <div className="bg-blue-50 rounded-full p-8 mb-6">
+        {/* <div className="bg-blue-50 rounded-full p-8 mb-6">
               <svg 
                 className="w-16 h-16 text-blue-500" 
                 fill="none" 
@@ -40,7 +40,7 @@ function Publications() {
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
               Coming Soon
             </h1> */}
-            {/* <p className="text-gray-600 text-lg max-w-2xl">
+        {/* <p className="text-gray-600 text-lg max-w-2xl">
             All selected papers will be published in Scopus Indexed Conference Proceedings. <br />
             For UG/PG Authors, only extended papers followed by blind review will be considered for publication.
 
@@ -49,7 +49,7 @@ function Publications() {
         </div> */}
         <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">All selected papers will be published in :</h1>
-          
+
           <div className="space-y-4 sm:space-y-6">
             <div>
               <div className="space-y-2 sm:space-y-3">
@@ -59,7 +59,7 @@ function Publications() {
                   "IJTE ISTE Journal (UGC)",
                   " For UG/PG Authors, only extended papers followed by blind review will be considered for publication.",
                 ].map((item, index) => (
-                  <div key={index} className="flex items-start space-x-2 sm:space-x-3"> 
+                  <div key={index} className="flex items-start space-x-2 sm:space-x-3">
                     <div className="mt-2 h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-primary-500 flex-shrink-0" />
                     <p className="text-sm sm:text-base lg:text-lg text-text-secondary">{item}</p>
                   </div>
