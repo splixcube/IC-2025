@@ -20,7 +20,7 @@ function PaperSubmission() {
 
       <main className="bg-gradient-to-b from-background-primary to-white px-4 sm:px-6 lg:px-8 pt-7">
         {/* Downloads Section */}
-        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 lg:mb-10 flex flex-col items-center text-center max-w-lg mx-auto">
+        {/* <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 lg:mb-10 flex flex-col items-center text-center max-w-lg mx-auto">
 
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-6 sm:mb-8 text-text-primary">
             Ready to Submit Your Paper?
@@ -41,8 +41,8 @@ function PaperSubmission() {
               Submit Paper Now
             </Link>
           </div>
-        </div>
-        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 lg:mb-10 flex flex-col items-center text-center max-w-lg mx-auto">
+        </div> */}
+        {/* <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 lg:mb-10 flex flex-col items-center text-center max-w-lg mx-auto">
 
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6 text-text-primary">Downloads</h2>
           <div className="flex flex-col space-y-3 sm:space-y-4">
@@ -67,7 +67,7 @@ function PaperSubmission() {
               </Link>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Guidelines Section */}
         <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
