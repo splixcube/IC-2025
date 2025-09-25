@@ -52,7 +52,7 @@ const Speakers = () => {
                     priority={index < 3}
                     quality={95}
                   />
-                  
+
                   {/* Overlay gradient on hover */}
                   <div className="absolute inset-0 bg-gradient-to-t from-primary-900/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
@@ -80,7 +80,7 @@ const Speakers = () => {
                   </div>
                 </div>
 
-                
+
                 {/* Speaker Details */}
                 <div className="p-6">
                   <div className="mb-3">
@@ -91,7 +91,7 @@ const Speakers = () => {
                       {speaker.designation}
                     </p>
                   </div>
-                  
+
                   {/* Hover action */}
                   {/* <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="flex items-center text-primary-500 text-sm font-medium">
