@@ -289,7 +289,7 @@ function Committe() {
 
         {/* Programme Chair & Co Chair Section */}
         <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6" style={{ color: '#3a7e44' }}>Programme Chair & Co Chair</h2>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6" style={{ color: '#3a7e44' }}>Conference Co Chair</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {conferenceCoChair.map((item, index) => (
               <div
