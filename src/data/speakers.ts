@@ -1,51 +1,86 @@
 export const speakers = [
     {
-        "name": " Prof. (Dr.) Somitra Kumar Sanadhya",
-        "designation": "Professor Department of CSE, IIT Jodhpur",
-        "image": "/gallery/keynote_speakers/somitra.webp",
-        "id": "1",
-        "national": true
-    },
-    {
-        "name": " Prof. Madya Ts. Dr. Ferda Ernawan",
-        "designation": "Associate Professor, Faculty of Computing, Universiti Malaysia Pahang Al-Sultan Abdullah, Pahang, Malaysia",
-        "image": "/gallery/keynote_speakers/Ferda.png",
-        "id": "2",
-        "national": false
-    },
-    {
-        "name": "Prof. Dr. Patrick Cato",
-        "designation": "Professor, Big Data-Technologies, Technische Hochschule Ingolstadt",
-        "image": "/gallery/keynote_speakers/Patrick.png",
-        "id": "3",
-        "national": false
-    },
-    // {
-    //     "name": "Dr. Manjusri Misra",
-    //     "designation": "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada",
-    //     "image": "/gallery/keynote_speakers/Manjusri_Misra_.png",
-    //     "id": "3",
-    //     "national": false
-    // },
-    {
-        "name": " Dr. Avadhesh Yadav",
-        "designation": "Deputy Director General, National Institute of Solar Energy, Gurugram",
-        "image": "/gallery/keynote_speakers/Avadhesh Yadav.jpeg",
-        "id": "4",
-        "national": true
-    },
-    {
-        "name": " Dr. Gaurav Kumar Bharti",
-        "designation": "Assistant Professor, Electronics and Communication Engineering, IIIT Bhopal",
-        "image": "/gallery/keynote_speakers/gaurav.jpg",
-        "id": "5",
-        "national": true
-    },
-    {
-        "name": " Dr. Anshuman Kalla",
-        "designation": "Professor (Computer Engineering), Uka Tarsadia University, Gujarat",
+        "name": "Dr. P. K. Jain",
+        "designation": "Librarian, Institute of Economic Growth",
         "image": "/gallery/keynote_speakers/anshu.jpg",
-        "id": "6",
+        "id": "7",
+        "national": true
+    },
+    {
+        "name": "Dr. Debal Chandra Kar",
+        "designation": "Librarian at Dr B R Ambedkar University Delhi",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "8",
+        "national": true
+    },
+    {
+        "name": "Labibah Zain",
+        "designation": "IFLA Special Interest Group : LIS in Developing Country at International Federation of Library Associations and Institutions (IFLA)",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "9",
+        "national": true
+    },
+    {
+        "name": "Kishor Chandra Satpathy",
+        "designation": "Chief Librarian at Indian Statistical Institute, Kolkata",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "10",
+        "national": true
+    },
+    {
+        "name": "Dr. Praveen Babel",
+        "designation": "Research Supervisor (Library and Information Science), Banasthali University",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "11",
+        "national": true
+    },
+    {
+        "name": "Nabi Hasan",
+        "designation": "Head Librarian/Central Library, IIT Delhi",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "12",
+        "national": true
+    },
+    {
+        "name": "Parveen Babbar",
+        "designation": "Deputy Librarian at Jawaharlal Nehru University",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "13",
+        "national": true
+    },
+    {
+        "name": "Santosh Gupta",
+        "designation": "Assistant Professor at University of Rajasthan",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "14",
+        "national": true
+    },
+    {
+        "name": "Dr. Babita Gaur",
+        "designation": "HoD Academic Librarian, University of Delhi",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "15",
+        "national": true
+    },
+    {
+        "name": "Sonal Singh",
+        "designation": "Librarian",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "16",
+        "national": true
+    },
+    {
+        "name": "Rajesh Singh",
+        "designation": "Librarian at University of Delhi",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "17",
+        "national": true
+    },
+    {
+        "name": "Dr. Rishi Tiwari",
+        "designation": "Head & Librarian at Malaviya National Institute of Technology, Jaipur",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "18",
         "national": true
     },
     // {
