@@ -93,14 +93,14 @@ const Speakers = () => {
                   </div>
                   
                   {/* Hover action */}
-                  <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  {/* <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="flex items-center text-primary-500 text-sm font-medium">
                       <span>View Profile</span>
                       <svg className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}
