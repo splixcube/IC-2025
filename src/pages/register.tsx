@@ -32,90 +32,34 @@ const Register = () => {
             <table className="w-full text-xs sm:text-sm lg:text-base">
               <thead className="text-white uppercase bg-primary-600">
                 <tr>
-                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">Category</th>
-                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">On or Before April 30, 2026</th>
-                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">After May 05, 2026</th>
+                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">Delegate REGISTRATION FEE</th>
+                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">Regular Fee</th>
                 </tr>
               </thead>
               <tbody>
                 {[
                   {
-                    category: "Faculty Member (International Professional Membership)",
-                    early: "INR 11,000",
-                    late: "INR 11,500"
+                    category: "Expert from Industry/PHD Scholar",
+                    fee: "4000"
                   },
                   {
-                    category: "Faculty Member (International Professional Non-Membership)",
-                    early: "INR 12,000",
-                    late: "INR 12,500"
+                    category: "Authors from Academic Institutions/PG student",
+                    fee: "3000"
                   },
                   {
-                    category: "Faculty With International Author",
-                    early: "INR 11,000",
-                    late: "INR 11,500"
-                  },
-                  {
-                    category: "International Author (International Professional Membership)",
-                    early: "$180",
-                    late: "$190"
-                  },
-                  {
-                    category: "Phd. Scholar (International Professional Membership)",
-                    early: "INR 10,000",
-                    late: "INR 10,500"
-                  },
-                  {
-                    category: "Phd. Scholar (International Professional Non-Membership)",
-                    early: "INR 12,000",
-                    late: "INR 12,500"
-                  },
-                  {
-                    category: "Phd. Scholar With International Author",
-                    early: "INR 10,000",
-                    late: "INR 10,500"
-                  },
-                  {
-                    category: "PG Student (Non Membership)",
-                    early: "INR 8,000",
-                    late: "INR 8,500"
-                  },
-                  {
-                    category: "PG Student (Membership)",
-                    early: "INR 7,000",
-                    late: "INR 7,500"
-                  },
-                  {
-                    category: "PG Student With International Author",
-                    early: "INR 7,000",
-                    late: "INR 7,500"
-                  },
-                  {
-                    category: "UG Student (Non Membership)",
-                    early: "INR 7,000",
-                    late: "INR 7,500"
-                  },
-                  {
-                    category: "UG Student (Membership)",
-                    early: "INR 6,000",
-                    late: "INR 6,500"
-                  },
-                  {
-                    category: "UG Student With International Author",
-                    early: "INR 6,000",
-                    late: "INR 6,500"
+                    category: "UG Student Author",
+                    fee: "1000"
                   },
                   {
                     category: "Attendee",
-                    early: "INR 1000",
-                    late: "INR 2000"
+                    fee: "500"
                   }
                 ].map((row, index) => (
                   <tr key={index} className="bg-white border-b hover:bg-secondary-50">
                     <th scope="row" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 font-medium text-text-primary">
                       {row.category}
                     </th>
-                    <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 text-text-secondary">{row.early}</td>
-                    <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 text-text-secondary">{row.late}</td>
+                    <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 text-text-secondary">INR {row.fee}</td>
                   </tr>
                 ))}
               </tbody>
