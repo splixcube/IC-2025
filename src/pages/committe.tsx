@@ -30,16 +30,8 @@ function Committe() {
       designation: "Co-ordinators, IQAC PIET",
     },
     {
-      name: "Mr. Ashok Choudhary",
-      designation: "Proctor, PIET",
-    },
-    {
       name: "Dr. Amit Shrivastav",
       designation: "CoE, PIET",
-    },
-    {
-      name: "Dr. Rekha Rani Agarwal",
-      designation: "Prof., PIET",
     },
   ];
 
