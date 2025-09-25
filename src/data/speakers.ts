@@ -44,7 +44,7 @@ export const speakers = [
     {
         "name": "Parveen Babbar",
         "designation": "Deputy Librarian at Jawaharlal Nehru University",
-        "image": "/gallery/keynote_speakers/parveenBabbar.jpeg",
+        "image": "/gallery/keynote_speakers/praveenb.jpeg",
         "id": "13",
         "national": true
     },
