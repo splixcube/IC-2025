@@ -77,6 +77,30 @@ function Committe() {
       designation: "Assoc. Professor, Humanities",
     },
     {
+      name: "Dr. Mahak Bhatia",
+      designation: "Assistant Professor",
+    },
+    {
+      name: "Dr. Neetu Sharma",
+      designation: "Assistant Professor",
+    },
+    {
+      name: "Mr. Mukul Nama",
+      designation: "Assistant Professor",
+    },
+    {
+      name: "Mr. Naveen Porwal",
+      designation: "Assistant Professor",
+    },
+    {
+      name: "Ms. Garima Kachhara",
+      designation: "Assistant Professor",
+    },
+    {
+      name: "Ms. Rimjhim Jain",
+      designation: "Assistant Professor",
+    },
+    {
       name: "Mr. Ashok Sharma",
       designation: "Librarian, PIET",
     },
