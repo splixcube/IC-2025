@@ -86,8 +86,15 @@ export const speakers = [
     {
         "name": "Prof. G. A. Ghanshyam",
         "designation": "Joint Director Directorate of Higher Education, Chhattisgarh, Raipur",
-        "image": "/gallery/keynote_speakers/rishi.jpeg",
+        "image": "/gallery/keynote_speakers/ghanshyam.jpg",
         "id": "19",
+        "national": true
+    },
+    {
+        "name": "DR. Mohit Jeengar",
+        "designation": "Assistant Professor in the Department of English at the University of Rajasthan, Jaipur",
+        "image": "/gallery/keynote_speakers/mohit.jpg",
+        "id": "20",
         "national": true
     },
 ]
