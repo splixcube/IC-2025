@@ -97,4 +97,11 @@ export const speakers = [
         "id": "20",
         "national": true
     },
+    {
+        "name": "Dr. Richa Arora",
+        "designation": "Professor & Head, Department of Liberal Arts & Social Sciences, Manipal University Jaipur",
+        "image": "/gallery/keynote_speakers/richaarora.jpg",
+        "id": "21",
+        "national": true
+    },
 ]
