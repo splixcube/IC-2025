@@ -132,8 +132,8 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* College Logo - Enhanced */}
-          <div className="hidden xl:flex justify-center items-start">
+          {/* College Logo and Achievements - Desktop */}
+          <div className="hidden xl:flex flex-col items-center space-y-4">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 hover:bg-white/15 transition-all duration-300 transform hover:scale-105">
               <Image
                 width={220}
@@ -141,6 +141,15 @@ const Footer = () => {
                 src="/clglogo.png"
                 className="object-contain filter drop-shadow-lg"
                 alt="College Logo"
+              />
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-2 hover:bg-white/15 transition-all duration-300">
+              <Image
+                width={600}
+                height={120}
+                src="/pietbg.jpg"
+                className="object-contain filter drop-shadow-lg"
+                alt="College Achievements and Ratings"
               />
             </div>
           </div>
@@ -156,6 +165,19 @@ const Footer = () => {
                 alt="College Logo"
               />
             </div>
+          </div>
+        </div>
+
+        {/* College Achievements - Mobile Full Width */}
+        <div className="xl:hidden mt-6 mb-4">
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 sm:p-4">
+            <Image
+              width={800}
+              height={160}
+              src="/pietbg.jpg"
+              className="w-full object-contain filter drop-shadow-md"
+              alt="College Achievements and Ratings"
+            />
           </div>
         </div>
 
