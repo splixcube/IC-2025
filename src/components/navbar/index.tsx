@@ -206,7 +206,7 @@ function Index() {
               <Image
                 width={200}
                 height={120}
-                src="/clglogo.png"
+                src="/clglogo.jpeg"
                 className="object-contain"
                 alt="College Logo"
               />
@@ -265,7 +265,7 @@ function Index() {
                 <Image
                   width={150}
                   height={90}
-                  src="/clglogo.png"
+                  src="/clglogo.jpg"
                   className="object-contain"
                   alt="College Logo"
                 />

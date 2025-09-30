@@ -138,7 +138,7 @@ const Footer = () => {
               <Image
                 width={200}
                 height={130}
-                src="/clglogo.png"
+                src="/clglogo.jpeg"
                 className="object-contain filter drop-shadow-lg"
                 alt="College Logo"
               />
@@ -151,7 +151,7 @@ const Footer = () => {
               <Image
                 width={160}
                 height={100}
-                src="/clglogo.png"
+                src="/clglogo.jpeg"
                 className="object-contain filter drop-shadow-md"
                 alt="College Logo"
               />
