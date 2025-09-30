@@ -45,7 +45,7 @@ const Footer = () => {
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-accent-400 via-secondary-400 to-accent-400"></div>
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 lg:gap-12 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mb-8">
           {/* Logo and Description */}
           <div className="space-y-4 sm:space-y-6">
             <Link href="/" className="flex items-center space-x-3 group">
@@ -130,32 +130,23 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-          </div>
 
-          {/* College Logo and Achievements - Desktop */}
-          <div className="hidden xl:flex flex-col items-center space-y-4">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 hover:bg-white/15 transition-all duration-300 transform hover:scale-105">
-              <Image
-                width={220}
-                height={140}
-                src="/clglogo.png"
-                className="object-contain filter drop-shadow-lg"
-                alt="College Logo"
-              />
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-2 hover:bg-white/15 transition-all duration-300">
-              <Image
-                width={1000}
-                height={200}
-                src="/pietbg.jpg"
-                className="object-contain filter drop-shadow-lg"
-                alt="College Achievements and Ratings"
-              />
+            {/* College Logo - Desktop */}
+            <div className="hidden md:flex justify-center mt-6">
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/15 transition-all duration-300 transform hover:scale-105">
+                <Image
+                  width={180}
+                  height={115}
+                  src="/clglogo.png"
+                  className="object-contain filter drop-shadow-lg"
+                  alt="College Logo"
+                />
+              </div>
             </div>
           </div>
 
           {/* Mobile College Logo */}
-          <div className="xl:hidden flex justify-center mt-4">
+          <div className="md:hidden flex justify-center mt-4">
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 sm:p-4">
               <Image
                 width={160}
@@ -168,14 +159,14 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* College Achievements - Mobile Full Width */}
-        <div className="xl:hidden mt-6 mb-4">
+        {/* College Achievements - Full Width */}
+        <div className="mt-6 mb-8">
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 sm:p-4">
             <Image
-              width={800}
-              height={160}
+              width={1200}
+              height={240}
               src="/pietbg.jpg"
-              className="w-full object-contain filter drop-shadow-md"
+              className="w-full object-contain filter drop-shadow-lg"
               alt="College Achievements and Ratings"
             />
           </div>

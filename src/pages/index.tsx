@@ -439,7 +439,7 @@ const Home = () => {
         </section>
 
         {/* Visitor Counter */}
-        <div className="bg-secondary-100 rounded-xl p-4 sm:p-8 text-center my-8 sm:my-12">
+        {/* <div className="bg-secondary-100 rounded-xl p-4 sm:p-8 text-center my-8 sm:my-12">
           <div className="text-3xl sm:text-5xl font-bold text-primary-600 mb-2 sm:mb-4 text-text-primary">
             <AnimatedNumbers
               includeComma
@@ -456,13 +456,13 @@ const Home = () => {
             />
           </div>
           <p className="text-lg sm:text-xl font-semibold" style={{ color: '#3a7e44' }}>Visitors</p>
-        </div>
+        </div> */}
 
-        <hr className="my-6 sm:my-8 h-px border-0 bg-gray-200" />
+        {/* <hr className="my-6 sm:my-8 h-px border-0 bg-gray-200" /> */}
 
         {/* Statistics Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 my-8 sm:my-12">
-          {counterData.map((item, index) => (
+        {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 my-8 sm:my-12"> */}
+          {/* {counterData.map((item, index) => (
             <div key={index}
               className="bg-background-primary rounded-xl shadow-md p-4 sm:p-6 text-center transform hover:scale-105 transition-all duration-300">
               <AnimatedNumbers
@@ -479,8 +479,8 @@ const Home = () => {
               />
               <p className="mt-2 text-text-secondary font-medium text-sm sm:text-base">{item.subTitle}</p>
             </div>
-          ))}
-        </div>
+          ))} */}
+        {/* </div> */}
 
         <Sponsored />
       </main>
