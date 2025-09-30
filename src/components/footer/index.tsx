@@ -145,8 +145,8 @@ const Footer = () => {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-2 hover:bg-white/15 transition-all duration-300">
               <Image
-                width={600}
-                height={120}
+                width={1000}
+                height={200}
                 src="/pietbg.jpg"
                 className="object-contain filter drop-shadow-lg"
                 alt="College Achievements and Ratings"
