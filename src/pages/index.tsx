@@ -224,7 +224,7 @@ const Home = () => {
               </p>
               <div className="my-6 sm:my-8 lg:my-10 rounded-xl overflow-hidden shadow-lg bg-white border border-gray-100">
                 <Image
-                  src="/bg.jpg"
+                  src="/bg.JPG"
                   alt="Conference venue and location images"
                   width={1200}
                   height={600}
