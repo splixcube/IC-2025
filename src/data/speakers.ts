@@ -112,7 +112,7 @@ export const speakers = [
         "national": true
     },
     {
-        "name": "DR. Mohit Jeengar",
+        "name": "Dr. Mohit Jeengar",
         "designation": "Assistant Professor in the Department of English at the University of Rajasthan, Jaipur",
         "image": "/gallery/keynote_speakers/mohit.jpg",
         "id": "16",
