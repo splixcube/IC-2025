@@ -436,10 +436,10 @@ const Home = () => {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/piet2.jpg"
+                  src="/library.jpeg"
                   alt="PIET Central Library facilities"
-                  width={1920}
-                  height={1080}
+                  width={600}
+                  height={400}
                   className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
                 />
               </div>
