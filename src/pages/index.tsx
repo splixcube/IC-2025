@@ -360,6 +360,15 @@ const Home = () => {
                   <p className="mb-6 sm:mb-8 text-justify">
                     Rajasthan is the largest state of India by an area 3,42,239 sq km. It encompasses most of the area of the large, inhospitable Great Indian Desert (Thar Desert), which has an edge paralleling the Sutlej-Indus River valley along its border with Pakistan. The state has borders with Pakistan to the west, Gujrat to the southwest, Madhya Pradesh to the southeast, Uttar Pradesh &amp; Haryana to the northeast &amp; Punjab to the north. The glory of the state is retained by its majestic places, forts, monuments, vibrant culture, and rich heritage which draw innumerable tourists from across the globe.
                   </p>
+                  <div className="rounded-xl overflow-hidden shadow-lg">
+                    <Image
+                      src="/gallery/city_images/wtp.avif"
+                      alt="Conference venue and location images"
+                      width={1920}
+                      height={1080}
+                      className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
                 </div>
 
                 <div>
@@ -367,6 +376,15 @@ const Home = () => {
                   <p className="mb-6 sm:mb-8 text-justify">
                     Jaipur (Pink City of India), the capital of Rajasthan state in India, was founded in 1727 by Maharaj Sawai Jai Singh. It is an enormously admired tourist destination in Rajasthan and India. Its features of beautiful Architecture, Town Planning, Arts and Crafts, Culture, tourism have endowed it with uniqueness in India&apos;s urban character. Jaipur being capital of Rajasthan and one of the important cities of Golden Triangle is the focus of the socio-economic and political center of the State. Jaipur is an expression of the astronomical skills, living traditions, unique urban form and exemplary foresighted city planning of an 18th century city from India.
                   </p>
+                  <div className="rounded-xl overflow-hidden shadow-lg">
+                    <Image
+                      src="/gallery/city_images/jaipur-hd-img.webp"
+                      alt="Conference venue and location images"
+                      width={1920}
+                      height={1080}
+                      className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
                 </div>
 
                 <div>
@@ -388,6 +406,15 @@ const Home = () => {
                     Star by the Innovation Council, Ministry of Education, Government of
                     India. PIET is the only private institute in Rajasthan to receive funding from AICTE, India for establishing an IDEA Lab.
                   </p>
+                  <div className="rounded-xl overflow-hidden shadow-lg">
+                    <Image
+                      src="/piet.jpg"
+                      alt="Conference venue and location images"
+                      width={1920}
+                      height={1080}
+                      className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
                 </div>
 
                 <div>
@@ -419,13 +446,22 @@ const Home = () => {
                     making its best efforts to provide quality services to users by using state-of
                     the-art facilities.
                   </p>
+                  <div className="rounded-xl overflow-hidden shadow-lg">
+                    <Image
+                      src="/piet2.jpg"
+                      alt="Conference venue and location images"
+                      width={1920}
+                      height={1080}
+                      className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div className="md:w-1/2 space-y-4 sm:space-y-6">
+            {/* <div className="md:w-1/2 space-y-4 sm:space-y-6">
               {/* Images section - wrapped in rounded corners and shadow */}
-              {["/gallery/city_images/wtp.avif",
+              {/* {["/gallery/city_images/wtp.avif",
                 "/gallery/city_images/jaipur.jpg", "/gallery/city_images/jaipur-hd-img.webp", "/piet.jpg", "/piet2.jpg"].map((src, index) => (
                   <div key={index} className="rounded-xl overflow-hidden shadow-lg">
                     <Image
@@ -435,9 +471,8 @@ const Home = () => {
                       height={1080}
                       className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
                     />
-                  </div>
-                ))}
-            </div>
+                  </div> */}
+            {/* </div> */}
           </div>
         </section>
 
