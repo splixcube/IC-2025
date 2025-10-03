@@ -430,31 +430,7 @@ const Home = () => {
                 <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#3a7e44' }}>Central Library, PIET</h2>
                 <div className="space-y-4">
                   <p className="text-justify leading-relaxed">
-                    The PIET Library is fully computerized with TCS-iON - Library
-                    Management Software and uses Gate Entry Management Software
-                    integrated with TCS-iON. Bar-Code Technology is used for circulation
-                    (issue-return) services. A systematic approach has been adopted for the
-                    development of the library and information system by introducing new
-                    systems and techniques.
-                  </p>
-                  <p className="text-justify leading-relaxed">
-                    Committed to excellence, the PIET Library and Information Services
-                    deliver user-focused, innovative information products, services, and
-                    programs of the highest quality that are integrated with teaching, learning,
-                    and research activities. In support of its educational mission, the PIET
-                    Library and Information Services provide a comfortable open-stack
-                    environment for study and research.
-                  </p>
-                  <p className="text-justify leading-relaxed">
-                    The library has the necessary infrastructure and facilities, including
-                    electronic information resources, to meet the requirements of both
-                    students and faculty members. The collection of the library covers the
-                    latest information resources on all technical subject areas.
-                    The Library occupies a unique place in the academic and research
-                    activities of the institute. The entire library is covered by CCTV camera
-                    surveillance and is well-protected with fire safety equipment. Our library is
-                    making its best efforts to provide quality services to users by using state-of
-                    the-art facilities.
+                  The PIET Central Library is a fully computerized and technology-enabled knowledge hub equipped with TCS-iON Library Management Software, an integrated Gate Entry Management System, and Bar-Code Technology for smooth and efficient circulation services. A user-friendly Web OPAC facility is also available, allowing faculty and students to search and access the library&apos;s collection and services with ease. Designed with a systematic approach, the library integrates state-of-the-art infrastructure, advanced digital resources, and a rich collection of academic and technical materials to support the teaching, learning, and research needs of the institute. To ensure safety and efficiency, the entire library is monitored by CCTV surveillance and secured with modern fire safety systems. Committed to excellence, the library provides innovative, user-centered services in a comfortable open-stack environment, maintaining its vital role in the academic and research ecosystem of PIET.
                   </p>
                 </div>
               </div>
