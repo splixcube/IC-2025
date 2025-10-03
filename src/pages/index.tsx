@@ -352,74 +352,84 @@ const Home = () => {
 
         {/* Objectives Section */}
         <section className="py-8 sm:py-12">
-          <div className="container flex flex-col md:flex-row-reverse gap-6 sm:gap-8 text-text-primary">
-            <div className="md:w-3/4">
-              <div className="space-y-6 sm:space-y-8">
-                <div>
-                  <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#3a7e44' }}>About Rajasthan</h2>
-                  <p className="mb-6 sm:mb-8 text-justify">
-                    Rajasthan is the largest state of India by an area 3,42,239 sq km. It encompasses most of the area of the large, inhospitable Great Indian Desert (Thar Desert), which has an edge paralleling the Sutlej-Indus River valley along its border with Pakistan. The state has borders with Pakistan to the west, Gujrat to the southwest, Madhya Pradesh to the southeast, Uttar Pradesh &amp; Haryana to the northeast &amp; Punjab to the north. The glory of the state is retained by its majestic places, forts, monuments, vibrant culture, and rich heritage which draw innumerable tourists from across the globe.
-                  </p>
-                  <div className="rounded-xl overflow-hidden shadow-lg">
-                    <Image
-                      src="/gallery/city_images/wtp.avif"
-                      alt="Conference venue and location images"
-                      width={1920}
-                      height={1080}
-                      className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                </div>
+          <div className="container space-y-8 sm:space-y-12 text-text-primary">
+            {/* About Rajasthan */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-start">
+              <div>
+                <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#3a7e44' }}>About Rajasthan</h2>
+                <p className="text-justify leading-relaxed">
+                  Rajasthan is the largest state of India by an area 3,42,239 sq km. It encompasses most of the area of the large, inhospitable Great Indian Desert (Thar Desert), which has an edge paralleling the Sutlej-Indus River valley along its border with Pakistan. The state has borders with Pakistan to the west, Gujrat to the southwest, Madhya Pradesh to the southeast, Uttar Pradesh &amp; Haryana to the northeast &amp; Punjab to the north. The glory of the state is retained by its majestic places, forts, monuments, vibrant culture, and rich heritage which draw innumerable tourists from across the globe.
+                </p>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg">
+                <Image
+                  src="/gallery/city_images/wtp.avif"
+                  alt="Rajasthan landscape and monuments"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </div>
 
-                <div>
-                  <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#3a7e44' }}>About Jaipur</h2>
-                  <p className="mb-6 sm:mb-8 text-justify">
-                    Jaipur (Pink City of India), the capital of Rajasthan state in India, was founded in 1727 by Maharaj Sawai Jai Singh. It is an enormously admired tourist destination in Rajasthan and India. Its features of beautiful Architecture, Town Planning, Arts and Crafts, Culture, tourism have endowed it with uniqueness in India&apos;s urban character. Jaipur being capital of Rajasthan and one of the important cities of Golden Triangle is the focus of the socio-economic and political center of the State. Jaipur is an expression of the astronomical skills, living traditions, unique urban form and exemplary foresighted city planning of an 18th century city from India.
-                  </p>
-                  <div className="rounded-xl overflow-hidden shadow-lg">
-                    <Image
-                      src="/gallery/city_images/jaipur-hd-img.webp"
-                      alt="Conference venue and location images"
-                      width={1920}
-                      height={1080}
-                      className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                </div>
+            {/* About Jaipur */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-start">
+              <div>
+                <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#3a7e44' }}>About Jaipur</h2>
+                <p className="text-justify leading-relaxed">
+                  Jaipur (Pink City of India), the capital of Rajasthan state in India, was founded in 1727 by Maharaj Sawai Jai Singh. It is an enormously admired tourist destination in Rajasthan and India. Its features of beautiful Architecture, Town Planning, Arts and Crafts, Culture, tourism have endowed it with uniqueness in India&apos;s urban character. Jaipur being capital of Rajasthan and one of the important cities of Golden Triangle is the focus of the socio-economic and political center of the State. Jaipur is an expression of the astronomical skills, living traditions, unique urban form and exemplary foresighted city planning of an 18th century city from India.
+                </p>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg">
+                <Image
+                  src="/gallery/city_images/jaipur-hd-img.webp"
+                  alt="Jaipur Pink City architecture"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </div>
 
-                <div>
-                  <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#3a7e44' }}>About Poornima Institute</h2>
-                  <p className="mb-6 sm:mb-8 text-justify">
-                    Poornima Institute of Engineering and Technology (PIET) is a premier
-                    institution in engineering education, established in the academic year
-                    2007. Affiliated with Rajasthan Technical University (Kota), approved by
-                    AICTE, and recognized under UGC 2(f), PIET was accredited with NAAC -
-                    A Grade in 2025. PIET has been granted Autonomous Status in July 2025,
-                    marking a significant milestone in its journey toward academic excellence
-                    and innovation.With over 1700 students, the institute offers eight
-                    specialized undergraduate engineering programs, focused on imparting
-                    robust technical skills and holistic development. In recognition of its
-                    sustained quality enhancement, PIET has consistently ranked among the
-                    top five institutions under the QIV Ranking by RTU, Kota, and holds a
-                    Diamond rating by QS I-Gauge.Rated PLATINUM by AICTE-CII Survey for
-                    strong industry-linked technical institutes, PIET has also been rated 3.5
-                    Star by the Innovation Council, Ministry of Education, Government of
-                    India. PIET is the only private institute in Rajasthan to receive funding from AICTE, India for establishing an IDEA Lab.
-                  </p>
-                  <div className="rounded-xl overflow-hidden shadow-lg">
-                    <Image
-                      src="/piet.jpg"
-                      alt="Conference venue and location images"
-                      width={1920}
-                      height={1080}
-                      className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                </div>
+            {/* About Poornima Institute */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-start">
+              <div>
+                <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#3a7e44' }}>About Poornima Institute</h2>
+                <p className="text-justify leading-relaxed">
+                  Poornima Institute of Engineering and Technology (PIET) is a premier
+                  institution in engineering education, established in the academic year
+                  2007. Affiliated with Rajasthan Technical University (Kota), approved by
+                  AICTE, and recognized under UGC 2(f), PIET was accredited with NAAC -
+                  A Grade in 2025. PIET has been granted Autonomous Status in July 2025,
+                  marking a significant milestone in its journey toward academic excellence
+                  and innovation.With over 1700 students, the institute offers eight
+                  specialized undergraduate engineering programs, focused on imparting
+                  robust technical skills and holistic development. In recognition of its
+                  sustained quality enhancement, PIET has consistently ranked among the
+                  top five institutions under the QIV Ranking by RTU, Kota, and holds a
+                  Diamond rating by QS I-Gauge.Rated PLATINUM by AICTE-CII Survey for
+                  strong industry-linked technical institutes, PIET has also been rated 3.5
+                  Star by the Innovation Council, Ministry of Education, Government of
+                  India. PIET is the only private institute in Rajasthan to receive funding from AICTE, India for establishing an IDEA Lab.
+                </p>
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg">
+                <Image
+                  src="/piet.jpg"
+                  alt="Poornima Institute of Engineering and Technology campus"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </div>
 
-                <div>
-                  <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#3a7e44' }}> Central Library, PIET</h2>
-                  <p className="mb-6 sm:mb-8 text-justify">
+            {/* About Central Library */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-start">
+              <div>
+                <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#3a7e44' }}>Central Library, PIET</h2>
+                <div className="space-y-4">
+                  <p className="text-justify leading-relaxed">
                     The PIET Library is fully computerized with TCS-iON - Library
                     Management Software and uses Gate Entry Management Software
                     integrated with TCS-iON. Bar-Code Technology is used for circulation
@@ -427,7 +437,7 @@ const Home = () => {
                     development of the library and information system by introducing new
                     systems and techniques.
                   </p>
-                  <p className="mb-6 sm:mb-8 text-justify">
+                  <p className="text-justify leading-relaxed">
                     Committed to excellence, the PIET Library and Information Services
                     deliver user-focused, innovative information products, services, and
                     programs of the highest quality that are integrated with teaching, learning,
@@ -435,7 +445,7 @@ const Home = () => {
                     Library and Information Services provide a comfortable open-stack
                     environment for study and research.
                   </p>
-                  <p className="mb-6 sm:mb-8 text-justify">
+                  <p className="text-justify leading-relaxed">
                     The library has the necessary infrastructure and facilities, including
                     electronic information resources, to meet the requirements of both
                     students and faculty members. The collection of the library covers the
@@ -446,33 +456,18 @@ const Home = () => {
                     making its best efforts to provide quality services to users by using state-of
                     the-art facilities.
                   </p>
-                  <div className="rounded-xl overflow-hidden shadow-lg">
-                    <Image
-                      src="/piet2.jpg"
-                      alt="Conference venue and location images"
-                      width={1920}
-                      height={1080}
-                      className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
                 </div>
               </div>
+              <div className="rounded-xl overflow-hidden shadow-lg">
+                <Image
+                  src="/piet2.jpg"
+                  alt="PIET Central Library facilities"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
+                />
+              </div>
             </div>
-
-            {/* <div className="md:w-1/2 space-y-4 sm:space-y-6">
-              {/* Images section - wrapped in rounded corners and shadow */}
-              {/* {["/gallery/city_images/wtp.avif",
-                "/gallery/city_images/jaipur.jpg", "/gallery/city_images/jaipur-hd-img.webp", "/piet.jpg", "/piet2.jpg"].map((src, index) => (
-                  <div key={index} className="rounded-xl overflow-hidden shadow-lg">
-                    <Image
-                      src={src}
-                      alt="Conference venue and location images"
-                      width={1920}
-                      height={1080}
-                      className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"
-                    />
-                  </div> */}
-            {/* </div> */}
           </div>
         </section>
 
