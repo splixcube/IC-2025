@@ -354,48 +354,6 @@ const Home = () => {
         <section className="py-8 sm:py-12">
           <div className="container flex flex-col md:flex-row-reverse gap-6 sm:gap-8 text-text-primary">
             <div className="md:w-3/4">
-              {/* <div className="space-y-4 sm:space-y-6">
-                <h2 className="text-xl sm:text-2xl font-bold" style={{color: '#3a7e44'}}>Objectives</h2>
-                <p className="mb-6 sm:mb-8 text-justify">
-                  The main objective of this conference is to provide a platform
-                  for researchers, academicians, industry professionals, and
-                  students to showcase their expertise and knowledge in the latest
-                  developments and strategies in the field of Science and technology.
-                  It is expected to receive a
-                  large number of high-quality submissions and foster innovative
-                  research discussions among scholars, scientists, engineers, and
-                  students from all over the world.
-                </p>
-                Other Objectives of the conference include:&nbsp;
-                <ul className="prose mx-4 my-4 list-disc text-justify text-sm sm:text-base">
-                  <li>
-                    Encouraging the proposal of new technologies, sharing of
-                    experiences, and discussion of recent developments and
-                    strategies in the field of Information Management and Machine
-                    Learning.
-                  </li>
-                  <li>
-                    Providing a common platform for academic pioneers to share
-                    their views and achievements, and for participants to network
-                    and collaborate.
-                  </li>
-                  <li>
-                    Enhancing the knowledge and skills of technocrats and
-                    academicians by presenting original and productive
-                    information.
-                  </li>
-                  <li>
-                    Highlighting pioneering issues internationally by bringing
-                    together experts from different countries.
-                  </li>
-                  <li>
-                    Promoting interdisciplinary collaborations to explore the
-                    integration of information Management and Machine Learning
-                    across diverse domains.
-                  </li>
-                </ul>
-              </div> */}
-
               <div className="space-y-6 sm:space-y-8">
                 <div>
                   <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4" style={{ color: '#3a7e44' }}>About Rajasthan</h2>
