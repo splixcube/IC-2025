@@ -71,19 +71,23 @@ function PaperSubmission() {
 
         {/* Guidelines Section */}
         <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">Paper Submission Guidelines And Publication Ethics</h1>
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-text-primary">Paper Submission Guidelines </h1>
 
           <div className="space-y-4 sm:space-y-6">
             <div>
               <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold mb-3 sm:mb-4 text-text-primary">Instructions:</h2>
               <div className="space-y-2 sm:space-y-3">
                 {[
-                  "Papers submitted to the conference should report your original work, unpublished before. They could be either experimental or theoretical and must not be under consideration for publication elsewhere. We firmly believe that ethical conduct is the most essential virtue of any academics. Any act of plagiarism or self-plagiarism is unacceptable and academic misconduct will not be tolerated. If an author is found to commit an act of plagiarism (more than 10%), we will reject the article submitted or delete the article from the final publications.",
-                  "Fabrication of data is an egregious departure from the expected norms of scientific conduct, as is the selective reporting of data with the intent to mislead or deceive, as well as the theft of data or research results from others.",
-                  "Kindly use the Full Paper Template provided above.",
-                  "The plagiarism should be less than 10 percentage. Organizers will check Plagiarism through Turnitin.",
-                  "The full article must be submitted as a MS Word file in DOC or DOCX format.",
-                  "Before submitting your paper, please ensure that the English used is clear, concise and coherent. This is especially important if English is not your first language.",
+                  "The papers must be submitted in accordance with the specified formats: The paper's word count must fall between the range of 3000 to 5000 words. It is required that all papers be typed using Microsoft Word, utilizing the Times New Roman font with a font size of 12 pt.",
+                  "The recommended paper size is A4, in portrait orientation, measuring 8.5 inches by 11 inches. The document should have a line spacing of 1.5 with margins of 1 inch on the top, bottom, and right sides, and 1.5 inches on the left side.",
+                  "Headings and subheadings should be formatted in strong font, aligned to the left margin, and numbered based on their hierarchical level as follows: 1. Heading at the first level, 1.1 Subheading, 1.1.1 Heading at the third level.",
+                  "The report should include appropriately numbered and described figures, charts, pictures, and tables.",
+                  "The main title should be immediately followed by the writers' names, affiliations, addresses, and email IDs.",
+                  "The abstract must not exceed 200 words and should be written in italics.",
+                  "A minimum of five keywords must be included following the abstract, highlighted in bold.",
+                  "Each paper submission must include a single passport-sized color photograph of the author(s) along with a concise curriculum vitae.",
+                  "The references or bibliographies should be cited according to the APA format recommended by the American Psychological Association.",
+                  "Fabrication of data is an egregious departure from the expected norms of scientific conduct, as is the selective reporting of data with the intent to mislead or deceive, as well as the theft of data or research results from others.",
                 ].map((item, index) => (
                   <div key={index} className="flex items-start space-x-2 sm:space-x-3">
                     <div className="mt-2 h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-primary-500 flex-shrink-0" />
