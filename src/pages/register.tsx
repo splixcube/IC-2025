@@ -74,7 +74,7 @@ const Register = () => {
         </div>
 
         {/* Account Details Section */}
-        {/* <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+        <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6 text-text-primary">Account Details</h2>
           <div className="space-y-3 sm:space-y-4">
             {[
@@ -82,7 +82,6 @@ const Register = () => {
               { label: "Account Number", value: "50200067728688" },
               { label: "Bank", value: "HDFC BANK LTD. F-129 RIICO INDUSTRIAL AREA SITAPURA, JAIPUR" },
               { label: "IFSC Code", value: "HDFC0003873" },
-              { label: "SWIFT Code", value: "HDFCINBBXXX" }
             ].map((detail, index) => (
               <div key={index} className="flex flex-col space-y-1 p-3 sm:p-4 border-b last:border-b-0">
                 <span className="text-xs sm:text-sm lg:text-base font-semibold text-text-secondary">{detail.label}</span>
@@ -90,7 +89,8 @@ const Register = () => {
               </div>
             ))}
           </div>
-        </div> */}
+        </div>
+
 
         <Sponsored />
       </main>
