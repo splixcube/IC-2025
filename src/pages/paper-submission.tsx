@@ -5,6 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import dynamic from "next/dynamic";
+import ImportantDates from "@/components/importantDates";
 
 function PaperSubmission() {
   return (
@@ -19,6 +20,9 @@ function PaperSubmission() {
       <br />
 
       <main className="bg-gradient-to-b from-background-primary to-white px-4 sm:px-6 lg:px-8 pt-7">
+        <div className="m-10 pt-2">
+        <ImportantDates />
+        </div>
         {/* Downloads Section */}
         
         {/* <div className="bg-background-primary rounded-lg sm:rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 lg:mb-10 flex flex-col items-center text-center max-w-lg mx-auto">
