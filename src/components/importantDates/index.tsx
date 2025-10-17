@@ -10,57 +10,24 @@ interface ImportantDate {
 
 const impDateData: ImportantDate[] = [
   {
-    title: "Full Paper Submission Date",
-    date: "Sep 15, 2024",
-    subtitle: "Full Paper Submission Date",
-
-    isImportant: false,
-    enabled: true,
-  },
-  {
-    title: "Extended Date",
-    date: "Nov 10, 2024",
-    subtitle: "Extended Date",
-
+    title: "Paper Submission Deadline",
+    date: "10 January 2026",
+    subtitle: "Paper Submission Deadline",
     isImportant: true,
     enabled: true,
   },
   {
     title: "Notification of Acceptance",
-    date: "Nov 15, 2024",
+    date: "20 January 2026",
     subtitle: "Notification of Acceptance",
-
     isImportant: true,
     enabled: true,
   },
   {
-    title: "Revised paper Submission",
-    subtitle: "Nov 20, 2024",
-    date: "Revised paper Submission",
-
-    isImportant: false,
-    enabled: true,
-  },
-  {
-    title: "Early Bird Registration",
-    date: "Nov 20, 2024",
-    subtitle: "Early Bird Registration",
-
-    isImportant: false,
-    enabled: true,
-  },
-  {
-    title: "Late Registration",
-    date: "Nov 30, 2024",
-    subtitle: "Late Registration",
-    isImportant: false,
-    enabled: true,
-  },
-  {
-    title: "Conference Dates",
-    date: "Dec 14-16, 2024",
-    subtitle: "Conference Dates",
-    isImportant: false,
+    title: "Camera-Ready Paper Submission",
+    subtitle: "Camera-Ready Paper Submission",
+    date: "3 Feb., 2026",
+    isImportant: true,
     enabled: true,
   },
 ];
