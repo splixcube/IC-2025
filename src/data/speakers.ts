@@ -1,7 +1,7 @@
 export const speakers = [
     {
         "name": "Dr. Labibah Zain",
-        "designation": "IFLA Special Interest Group : LIS in Developing Country at International Federation of Library Associations and Institutions (IFLA)",
+        "designation": "Professor&Head, Department, Library & Information Science And University Librarian, UNI Sunan Kalijaga Yogyakarta, Indonesia.",
         "image": "/gallery/keynote_speakers/labibah.jpeg",
         "id": "1",
         "national": false
