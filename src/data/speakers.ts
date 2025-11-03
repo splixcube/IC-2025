@@ -29,7 +29,7 @@ export const speakers = [
     },
     {
         "name": "Dr. Debal Chandra Kar",
-        "designation": "Librarian at Dr B R Ambedkar University Delhi",
+        "designation": "Dean and University Librarian, Galgotias University University, Greater Noida",
         "image": "/gallery/keynote_speakers/debal.jpeg",
         "id": "5",
         "national": true
