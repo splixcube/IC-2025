@@ -7,7 +7,7 @@ import React from "react";
 function Committe() {
   const patron = [
     {
-      name: "Dinesh Goyal",
+      name: "Prof (Dr.) Dinesh Goyal",
       designation: "Director & Principal, PIET",
     },
   ];
