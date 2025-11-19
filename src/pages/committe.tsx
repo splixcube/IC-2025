@@ -128,7 +128,7 @@ function Committe() {
       designation: "Assistant Professor, Symbiosis University, Dubai",
     },
     {
-      name: "Ms. Labibah Zain",
+      name: "Dr. Labibah Zain",
       designation: "MLIS, Associate Professor, UIN Sunan Kalijaga Yogyakarta Indonesia",
     },
   ];
