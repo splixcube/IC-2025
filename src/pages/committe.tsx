@@ -129,7 +129,7 @@ function Committe() {
     },
     {
       name: "Ms. Labibah Zain",
-      designation: "Head LIS Department & University Library Sunan Kalijaga State, Indonesia",
+      designation: "MLIS, Associate Professor, UIN Sunan Kalijaga Yogyakarta Indonesia",
     },
   ];
 
