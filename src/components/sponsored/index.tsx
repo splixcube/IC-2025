@@ -5,13 +5,13 @@ function Sponsored() {
   const sponsors = [
     {
       image: "/peter.png",
-      name: "Indian Society for Technical Education",
-      alt: "ISTE Logo"
+      name: "Peter Lang Academic Publication",
+      alt: "PETER LANG Logo"
     },
     {
       image: "/scopus.png",
-      name: "Indian Society for Technical Education",
-      alt: "ISTE Logo"
+      name: "Scopus Indexed conference Proceedings",
+      alt: "Scopus Logo"
     },
     {
       image: "/iste.jpg",
