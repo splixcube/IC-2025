@@ -4,7 +4,7 @@ import Image from "next/image";
 function Sponsored() {
   const sponsors = [
     {
-      image: "/peter.jpeg",
+      image: "/peter.png",
       name: "Indian Society for Technical Education",
       alt: "ISTE Logo"
     },
