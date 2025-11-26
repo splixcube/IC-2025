@@ -9,7 +9,7 @@ function Sponsored() {
       alt: "ISTE Logo"
     },
     {
-      image: "/iste.jpg",
+      image: "/scopus.png",
       name: "Indian Society for Technical Education",
       alt: "ISTE Logo"
     },
