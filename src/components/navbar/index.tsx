@@ -192,7 +192,7 @@ function Index() {
                   className="text-xl sm:text-2xl font-bold"
                   style={{ color: '#3a7e44' }}
                 >
-                  ICIDLHV 2026
+                  SCOPUS & WoS INDEXED ICIDLHV 2026
                 </span>
 
                 <span className="hidden sm:block text-xs sm:text-sm text-gray-600 max-w-xs sm:max-w-md lg:max-w-2xl">
