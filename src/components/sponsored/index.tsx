@@ -5,12 +5,12 @@ function Sponsored() {
   const sponsors = [
     {
       image: "/peter.png",
-      name: "Peter Lang Academic Publication",
+      name: "Scopus Indexed Procedding Peter Lang Academic Publication",
       alt: "PETER LANG Logo"
     },
     {
       image: "/collnet.png",
-      name: "Scopus Indexed COLLNET Journal Publication",
+      name: "WoS Indexed COLLNET Journal Publication",
       alt: "CollNet Logo"
     },
   ];
