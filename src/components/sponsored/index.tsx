@@ -10,7 +10,7 @@ function Sponsored() {
     },
     {
       image: "/collnet.png",
-      name: "Scopus Indexed Call NET Journal Publication",
+      name: "Scopus Indexed COLLNET Journal Publication",
       alt: "CollNet Logo"
     },
   ];
