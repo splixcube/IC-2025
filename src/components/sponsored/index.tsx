@@ -9,11 +9,6 @@ function Sponsored() {
       alt: "PETER LANG Logo"
     },
     {
-      image: "/scopus.png",
-      name: "Scopus Indexed conference Proceedings",
-      alt: "Scopus Logo"
-    },
-    {
       image: "/collnet.png",
       name: "Scopus Indexed Call NET Journal Publication",
       alt: "CollNet Logo"
