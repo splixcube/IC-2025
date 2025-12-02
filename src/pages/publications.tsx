@@ -27,7 +27,9 @@ function Publications() {
                 {[
                   // "AIPCP* Scopus Indexed Conference Proceedings",
                   // "CRC Press Conference Proceedings which shall be sent for Indexing after publication",
-                  "IJTE ISTE Journal (UGC)",
+                  "WoS COLLNET Journal",
+                  "SCOPUS Indexed PETER LANG Academic Publication",
+                  "UGC Care listed ISTE Journal"
                   // " For UG/PG Authors, only extended papers followed by blind review will be considered for publication.",
                 ].map((item, index) => (
                   <div key={index} className="flex items-start space-x-2 sm:space-x-3">
