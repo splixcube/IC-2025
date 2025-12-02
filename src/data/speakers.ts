@@ -119,13 +119,6 @@ export const speakers = [
         "national": true
     },
     {
-        "name": "Dr. Richa Arora",
-        "designation": "Professor & Head, Department of Liberal Arts & Social Sciences, Manipal University Jaipur",
-        "image": "/gallery/keynote_speakers/richa.jpg",
-        "id": "17",
-        "national": true
-    },
-    {
         "name": "Dr. Anita Singh",
         "designation": "Professor & Head, Department of English, Banaras Hindu University",
         "image": "/gallery/keynote_speakers/anita.jpg",
